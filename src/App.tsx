@@ -1,11 +1,13 @@
-import React from 'react';
-import './App.css';
+import Container from '@mui/material/Container';
+import Homepage from './HomePage/HomePage';
+import NavBar from './NavBar';
 
 function App() {
   return (
-    <div className="App">
-    Hi, This is Vignesh Kannaa
-    </div>
+    <Container>
+      <NavBar></NavBar>
+      <Homepage></Homepage>
+    </Container>
   );
 }
 export default App;
