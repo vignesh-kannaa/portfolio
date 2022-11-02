@@ -3,7 +3,7 @@ import Contact from './Contact';
 import Experience from './Experience';
 import Intro from './Intro';
 import Work from './Work';
-function Homepage(){
+const Homepage=()=>{
     return(
         <div>
             <Intro></Intro>
