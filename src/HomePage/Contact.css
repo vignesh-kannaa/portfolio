@@ -1,7 +1,4 @@
-.Icon{
-    color:black;
-    padding: 5%;
-}
-.centerAlign{
-    text-align: center;
+ion-icon {
+  font-size: 50px;
+  padding: 25px;
 }
