@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ea8cf39b.css",
-    "main.js": "/portfolio/static/js/main.a24f1489.js",
+    "main.css": "/portfolio/static/css/main.b0144f1c.css",
+    "main.js": "/portfolio/static/js/main.a5a4b483.js",
     "static/js/443.5441a6da.chunk.js": "/portfolio/static/js/443.5441a6da.chunk.js",
     "static/js/738.6d9c974b.chunk.js": "/portfolio/static/js/738.6d9c974b.chunk.js",
     "static/js/372.54ec7a94.chunk.js": "/portfolio/static/js/372.54ec7a94.chunk.js",
@@ -13,11 +13,10 @@
     "static/js/186.fe0e1150.chunk.js": "/portfolio/static/js/186.fe0e1150.chunk.js",
     "static/media/spotaround.jpg": "/portfolio/static/media/spotaround.44eece75232f787ae560.jpg",
     "static/media/Lato-Regular.ttf": "/portfolio/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
-    "static/media/VigneshKannaa-CV.pdf": "/portfolio/static/media/VigneshKannaa-CV.db82886408aef5ad2a2a.pdf",
     "static/media/vignesh.jpg": "/portfolio/static/media/vignesh.8ee8a3aedabe9100f617.jpg",
     "index.html": "/portfolio/index.html",
-    "main.ea8cf39b.css.map": "/portfolio/static/css/main.ea8cf39b.css.map",
-    "main.a24f1489.js.map": "/portfolio/static/js/main.a24f1489.js.map",
+    "main.b0144f1c.css.map": "/portfolio/static/css/main.b0144f1c.css.map",
+    "main.a5a4b483.js.map": "/portfolio/static/js/main.a5a4b483.js.map",
     "443.5441a6da.chunk.js.map": "/portfolio/static/js/443.5441a6da.chunk.js.map",
     "738.6d9c974b.chunk.js.map": "/portfolio/static/js/738.6d9c974b.chunk.js.map",
     "372.54ec7a94.chunk.js.map": "/portfolio/static/js/372.54ec7a94.chunk.js.map",
@@ -29,7 +28,7 @@
     "186.fe0e1150.chunk.js.map": "/portfolio/static/js/186.fe0e1150.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea8cf39b.css",
-    "static/js/main.a24f1489.js"
+    "static/css/main.b0144f1c.css",
+    "static/js/main.a5a4b483.js"
   ]
 }
