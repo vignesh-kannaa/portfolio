@@ -1,4 +1,21 @@
-.border-format{
+@media screen and (min-width: 601px) {
+  .border-format {
     padding-left: 25px;
-    padding-right: 25px;
+    padding-right: 50px;
+  }
+  .ion-icon-intro {
+    font-size: 35px;
+    padding: 0px;
+  }
+}
+/* mobile */
+@media screen and (max-width: 601px) {
+  .border-format {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .ion-icon-intro {
+    font-size: 35px;
+    padding: 0px;
+  }
 }

@@ -1,11 +1,4 @@
-
-
-function Experience(){
-    return(
-        <div>
-
-            
-        </div>
-    )
-}
+const Experience = () => {
+  return <div></div>;
+};
 export default Experience;

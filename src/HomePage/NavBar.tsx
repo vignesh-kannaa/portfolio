@@ -11,35 +11,36 @@ import { paw } from "ionicons/icons";
 import "./NavBar.css";
 
 const NavBar = () => {
+  const cvPdf =
+    "https://drive.google.com/file/d/1i9l-rbxGuDyEZxNMnkq7zUgkR7H39Hb5/view?usp=share_link";
   return (
-    <IonHeader translucent={true} className="border-format">
+    <IonHeader>
       <IonToolbar>
         <IonTitle>
           <IonGrid>
             <IonRow>
-              <IonCol size="4">
+              <IonCol size="4" className="border-format">
                 <div className="ion-text-start">
                   <IonIcon className="ion-icon-intro" icon={paw}></IonIcon>
                 </div>
               </IonCol>
               <IonCol size="2" className="ion-text-end">
-                <a href="#home">
+                <a href="/portfolio/#home">
                   <h3>Home</h3>
                 </a>
               </IonCol>
               <IonCol size="2" className="ion-text-end">
-                <a href="#project">
+                <a href="/portfolio/#project">
                   <h3>Project</h3>
                 </a>
               </IonCol>
               <IonCol size="2" className="ion-text-end">
-              <a href="#contact"><h3>Contact</h3></a>
+                <a href="/portfolio/#contact">
+                  <h3>Contact</h3>
+                </a>
               </IonCol>
-              <IonCol size="2" className="ion-text-end">
-                <a
-                  href="../assets/VigneshKannaa-CV.pdf"
-                  download="VigneshKannaa-CV.pdf"
-                >
+              <IonCol size="2" className="ion-text-end border-format">
+                <a href={cvPdf} target="_blank" download="VigneshKannaa-CV">
                   <h3>CV</h3>
                 </a>
               </IonCol>

@@ -76,33 +76,72 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-tint: #f5f6f9;
 }
 
-ion-content {
-  --background: #000000;
+/* For desktop */
+@media screen and (min-width: 601px) {
+  ion-content,
+  ion-toolbar {
+    --background: #0f0f0f;
+  }
+  h1 {
+    color: white;
+    font-size: 100px;
+  }
+  h2 {
+    color: white;
+    font-size: 40px;
+  }
+  h3 {
+    color: white;
+  }
+  h4,
+  h5 {
+    color: #8f9094;
+  }
+  strong,
+  ion-icon {
+    color: #6b53ff;
+  }
+  .section_margin {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+/* Mobile  */
+@media screen and (max-width: 601px) {
+  ion-content,
+  ion-toolbar {
+    --background: #0f0f0f;
+  }
+  h1 {
+    color: white;
+    font-size: 50px;
+  }
+  h2 {
+    color: white;
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 17px;
+    color: white;
+  }
+  h4,
+  h5 {
+    font-size: 15px;
+    color: #8f9094;
+  }
+  strong,
+  ion-icon {
+    color: #6b53ff;
+  }
+  .section_margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }
 
-h1 {
-  color: white;
-  font-size: 100px;
-}
-h2 {
-  color: white;
-  margin-top: 100px;
-  font-size: 40px;
-}
-h3 {
-  color: white;
-}
-h4,h5 {
-  color: #8f9094;
-}
-ion-toolbar {
-  --background: #000000;
-}
-ion-icon {
-  color: #1ba571;
-}
-strong {
-  color: #1ba571;
+@font-face {
+  font-family: AppFont;
+  src: url("../assets/Lato-Regular.ttf");
 }
 
 @media (prefers-color-scheme: dark) {

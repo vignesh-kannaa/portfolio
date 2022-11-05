@@ -11,17 +11,23 @@ import Footer from "./Footer";
 const Homepage = () => {
   return (
     <div>
-      <NavBar></NavBar>
-      <IonContent fullscreen={true}>
-        <div className="border">
-          <Intro></Intro>
-          <AboutMe></AboutMe>
-          <Project></Project>
-          <Experience></Experience>
-          <Contact></Contact>
-          <Footer></Footer>
-        </div>
-      </IonContent>
+      <IonPage>
+        <NavBar></NavBar>
+        <IonContent>
+          <div className="border">
+            <Intro></Intro>
+
+            <AboutMe></AboutMe>
+
+            <Project></Project>
+
+            {/* <Experience></Experience> */}
+            <Contact></Contact>
+
+            <Footer></Footer>
+          </div>
+        </IonContent>
+      </IonPage>
     </div>
   );
 };

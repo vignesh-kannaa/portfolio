@@ -17,7 +17,7 @@ const Contact = () => {
   const instagram = "https://instagram.com/__kannaa_?igshid=YmMyMTA2M2Y=";
   const whatsApp = "https://wa.me/qr/Q33SLQKPFW2RP1";
   return (
-    <div id="contact" className="ion-text-center">
+    <div id="contact" className="ion-text-center section_margin">
       <h2>Keep in Touch</h2>
       <a target="_blank" href={gitHub}>
         <IonIcon icon={logoGithub}></IonIcon>
