@@ -3,6 +3,7 @@ http://ionicframework.com/docs/theming/ */
 
 /** Ionic CSS Variables **/
 :root {
+  /* --ion-font-family: ‘AppFont’ */
   /** primary **/
   --ion-color-dark: #3880ff;
   --ion-color-dark-rgb: 56, 128, 255;

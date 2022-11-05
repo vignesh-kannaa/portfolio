@@ -33,9 +33,9 @@ const Project = () => {
                   <IonGrid>
                     <IonRow className="ion-item-center">
                       <IonCol size="9">
-                        <IonCardTitle className="title">
-                          <h2>Spot Around</h2>
-                        </IonCardTitle>
+                        <div className="title">
+                          Spot Around
+                        </div>
                       </IonCol>
                       <IonCol size="3" className="ion-item-center">
                         <a target="_blank" href={gitHub}>
