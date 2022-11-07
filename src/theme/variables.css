@@ -1,9 +1,6 @@
-/* Ionic Variables and Theming. For more info, please see:
-http://ionicframework.com/docs/theming/ */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
-/** Ionic CSS Variables **/
 :root {
-  /* --ion-font-family: ‘AppFont’ */
   /** primary **/
   --ion-color-dark: #3880ff;
   --ion-color-dark-rgb: 56, 128, 255;
@@ -77,72 +74,99 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-tint: #f5f6f9;
 }
 
+/* FONTS */
+
+@font-face {
+  font-family: "RedHat-Bold";
+  src: url("../assets/font/RedHat/RedHatDisplay-Bold.ttf");
+}
+
+@font-face {
+  font-family: "RedHat-Medium";
+  src: url("../assets/font/RedHat/RedHatDisplay-Medium.ttf");
+}
+* {
+  font-family: "RedHat-Medium";
+}
+/* STYLES */
+h1,
+h2,
+h3,
+h4,
+h5,
+ion-icon {
+  color: white;
+}
+
+strong {
+  color: #bca0f4;
+}
+ion-content,
+ion-toolbar {
+  --background: #2f2b44;
+}
+hr {
+  background-color: #7951d2;
+  height: 13px;
+  width: 72px;
+  border-radius: 10px;
+  margin-left: 0;
+}
 /* For desktop */
 @media screen and (min-width: 601px) {
-  ion-content,
-  ion-toolbar {
-    --background: #0f0f0f;
+  hr {
+    background-color: #7951d2;
+    height: 13px;
+    width: 72px;
+    border-radius: 10px;
+    margin-left: 0;
   }
   h1 {
-    color: white;
-    font-size: 100px;
+    font-size: 48px;
   }
   h2 {
-    color: white;
-    font-size: 40px;
+    font-size: 36px;
   }
   h3 {
-    color: white;
+    font-size: 32px;
   }
-  h4,
+  h4 {
+    font-size: 25px;
+  }
   h5 {
-    color: #8f9094;
+    font-size: 22px;
   }
-  strong,
-  ion-icon {
-    color: #6b53ff;
-  }
+
   .section_margin {
     margin-top: 100px;
     margin-bottom: 100px;
   }
+  .section-margin-desc {
+    margin-top: 50px;
+  }
 }
 /* Mobile  */
 @media screen and (max-width: 601px) {
-  ion-content,
-  ion-toolbar {
-    --background: #0f0f0f;
+  hr {
+    background-color: #7951d2;
+    height: 7px;
+    width: 72px;
+    border-radius: 10px;
+    margin-left: 0;
   }
   h1 {
-    color: white;
-    font-size: 50px;
+    font-size: 36px;
   }
   h2 {
-    color: white;
     font-size: 20px;
   }
   h3 {
-    font-size: 17px;
-    color: white;
-  }
-  h4,
-  h5 {
     font-size: 15px;
-    color: #8f9094;
-  }
-  strong,
-  ion-icon {
-    color: #6b53ff;
   }
   .section_margin {
     margin-top: 50px;
     margin-bottom: 50px;
   }
-}
-
-@font-face {
-  font-family: AppFont;
-  src: url("../assets/Lato-Regular.ttf");
 }
 
 @media (prefers-color-scheme: dark) {
