@@ -16,14 +16,10 @@ const Homepage = () => {
         <IonContent>
           <div className="border">
             <Intro></Intro>
-
             <AboutMe></AboutMe>
-
+            <Experience></Experience>
             <Project></Project>
-
-            {/* <Experience></Experience> */}
             <Contact></Contact>
-
             <Footer></Footer>
           </div>
         </IonContent>

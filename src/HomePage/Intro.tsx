@@ -2,16 +2,16 @@ import "./Intro.css";
 
 const Intro = () => {
   return (
-    <div id="home" className="section_margin">
-      <h3>
-        <b>Hey there !</b>
-      </h3>
-      <h1 color="success" className="heading">
-        Vignesh Kannaa
-      </h1>
-      <h3>
-        <strong>Software Developer | Machine Learning Engineer</strong>
-      </h3>
+    <div id="about" className="section_margin intro-content">
+      <img className="bgImage" src={require("../assets/images/bannerImg.gif")} />
+      <div className="herocontent">
+        <img src={require("../assets/images/memoji.png")} />
+        <h2>Hey there, I'm</h2>
+        <div className="header">Vignesh Kannaa</div>
+        <div className="intro-desc">
+          Machine Learning Engineer \ Software Engineer
+        </div>
+      </div>
     </div>
   );
 };

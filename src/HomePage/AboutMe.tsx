@@ -1,14 +1,15 @@
-import { IonCol, IonContent, IonGrid, IonHeader, IonRow } from "@ionic/react";
+import { IonCol, IonGrid, IonRow } from "@ionic/react";
 import { IonAvatar } from "@ionic/react";
 import "./AboutMe.css";
 
 const AboutMe = () => {
   return (
     <IonGrid className="section_margin">
-      <h2>About Me!</h2>
-      <IonRow>
+      <h1>About Me</h1>
+      <hr></hr>
+      <IonRow className="section-margin-desc">
         <IonCol size="6">
-          <h4>
+          <h3>
             I'm currently pursuing my master's in{" "}
             <strong>Artificial Intelligence</strong> at{" "}
             <a href="https://www.aston.ac.uk/" target="_blank">
@@ -17,16 +18,17 @@ const AboutMe = () => {
             , Birmingham.
             <br />
             <br />
-            Possesses 4+ years of Software experience working in large and small
-            organisations across a range of sectors, including Finance,
-            E-commerce, Marketing, Medical and Industrial. Experienced working
-            in both Waterfall and Agile development environments.
-          </h4>
+            Possesses <strong>4+ years</strong> of Software experience working
+            in large and small organisations across a range of sectors,
+            including Finance, E-commerce, Marketing, Medical and Industrial.
+            Experienced working in both Waterfall and Agile development
+            environments.
+          </h3>
         </IonCol>
         <IonCol size="6">
-          <IonAvatar className="image ion-text-center">
-            <img src={require("../assets/vignesh.jpg")} />
-          </IonAvatar>
+          <div className="image ion-text-center">
+            <img src={require("../assets/images/vignesh.png")} />
+          </div>
         </IonCol>
       </IonRow>
     </IonGrid>

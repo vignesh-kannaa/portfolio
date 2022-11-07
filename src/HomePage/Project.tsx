@@ -1,15 +1,4 @@
-import {
-  IonButton,
-  IonCard,
-  IonCardContent,
-  IonCardHeader,
-  IonCardTitle,
-  IonChip,
-  IonCol,
-  IonGrid,
-  IonIcon,
-  IonRow,
-} from "@ionic/react";
+import { IonCard, IonChip, IonIcon, IonRow } from "@ionic/react";
 import { logoGithub, logoGooglePlaystore } from "ionicons/icons";
 import "./Project.css";
 
@@ -19,58 +8,37 @@ const Project = () => {
     "https://play.google.com/store/apps/details?id=com.spotaround";
   return (
     <div id="project" className="section_margin">
-      <h2>Project</h2>
-      <IonGrid>
-        <IonRow>
-          <IonCol size="12" size-md="6">
-            <IonCard class="card">
-              <img
-                src={require("../assets/spotaround.jpg")}
-                className="projectImg"
-              />
-              <div className="card-body">
-                <IonCardHeader>
-                  <IonGrid>
-                    <IonRow className="ion-item-center">
-                      <IonCol size="9">
-                        <div className="title">
-                          Spot Around
-                        </div>
-                      </IonCol>
-                      <IonCol size="3" className="ion-item-center">
-                        <a target="_blank" href={gitHub}>
-                          <IonIcon
-                            className="ion-icon-project"
-                            icon={logoGithub}
-                          ></IonIcon>
-                        </a>
-                        <a target="_blank" href={playStoreSpotaround}>
-                          <IonIcon
-                            className="ion-icon-project"
-                            icon={logoGooglePlaystore}
-                          ></IonIcon>
-                        </a>
-                      </IonCol>
-                    </IonRow>
-                    <IonRow>
-                      <IonChip className="ion-chip">Java</IonChip>
-                      <IonChip className="ion-chip">Angular</IonChip>
-                      <IonChip className="ion-chip">Mysql</IonChip>
-                    </IonRow>
-                  </IonGrid>
-                </IonCardHeader>
-                <IonCardContent className="ion-text-center">
-                  {/* <IonButton>Know More</IonButton> */}
-                  <div className="content">
-                    Search and Hire Neighbourhood professionals at Ease -{" "}
-                    <strong>Mobile App</strong> for Android
-                  </div>
-                </IonCardContent>
-              </div>
-            </IonCard>
-          </IonCol>
-        </IonRow>
-      </IonGrid>
+      <h1>Projects</h1>
+      <hr></hr>
+      <IonCard className="card section-margin-desc">
+        <img
+          src={require("../assets/images/spotaround.png")}
+          className="projectImg"
+        />
+        <div className="card-body">
+          <div className="project-margin">
+            <div className="title">Spot Around</div>
+            <div className="content">
+              <strong>Mobile App</strong> that will help to spot local
+              freelancers anywhere and anytime
+            </div>
+            <IonRow className="margin-top">
+              <IonChip className="ion-chip ">Java</IonChip>
+              <IonChip className="ion-chip">Angular</IonChip>
+              <IonChip className="ion-chip">Mysql</IonChip>
+            </IonRow>
+            <a target="_blank" href={gitHub}>
+              <IonIcon className="ion-icon-project" icon={logoGithub}></IonIcon>
+            </a>
+            <a target="_blank" href={playStoreSpotaround}>
+              <IonIcon
+                className="ion-icon-project"
+                icon={logoGooglePlaystore}
+              ></IonIcon>
+            </a>
+          </div>
+        </div>
+      </IonCard>
     </div>
   );
 };

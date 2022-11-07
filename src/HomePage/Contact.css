@@ -1,12 +1,23 @@
-@media screen and (min-width: 601px) {
-ion-icon {
-  font-size: 30px;
-  padding: 25px;
+.contact-ion-icon {
+  margin: 0 10% 0 0;
+  font-size: 4vmin;
 }
+ion-button {
+  text-transform: none;
+  height: 90px;
+  width: 80%;
+  font-size: 3vmin;
+  --background: #2F2B44;
+}
+@media screen and (min-width: 601px) {
 }
 @media screen and (max-width: 601px) {
   ion-icon {
     font-size: 25px;
-    padding: 15px;
   }
+  ion-button {
+    height: 45px;
+    width: 80%;
+    font-size: 9px;
   }
+}

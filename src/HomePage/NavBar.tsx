@@ -7,7 +7,7 @@ import {
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-import { paw } from "ionicons/icons";
+
 import "./NavBar.css";
 
 const NavBar = () => {
@@ -15,34 +15,41 @@ const NavBar = () => {
     "https://drive.google.com/file/d/1i9l-rbxGuDyEZxNMnkq7zUgkR7H39Hb5/view?usp=share_link";
   return (
     <IonHeader>
-      <IonToolbar>
+      <IonToolbar className="padding-page">
         <IonTitle>
           <IonGrid>
             <IonRow>
-              <IonCol size="4" className="border-format">
-                <div className="ion-text-start">
-                  <IonIcon className="ion-icon-intro" icon={paw}></IonIcon>
-                </div>
+              <IonCol size="6">
+                <img src={require("../assets/images/Logo.png")} />
               </IonCol>
-              <IonCol size="2" className="ion-text-end">
-                <a href="/portfolio/#home">
-                  <h3>Home</h3>
-                </a>
-              </IonCol>
-              <IonCol size="2" className="ion-text-end">
-                <a href="/portfolio/#project">
-                  <h3>Project</h3>
-                </a>
-              </IonCol>
-              <IonCol size="2" className="ion-text-end">
-                <a href="/portfolio/#contact">
-                  <h3>Contact</h3>
-                </a>
-              </IonCol>
-              <IonCol size="2" className="ion-text-end border-format">
-                <a href={cvPdf} target="_blank" download="VigneshKannaa-CV">
-                  <h3>CV</h3>
-                </a>
+              <IonCol>
+                <IonRow>
+                  <IonCol>
+                    <a href="/portfolio/#about">
+                      <h4 className="nav">About</h4>
+                    </a>
+                  </IonCol>
+                  <IonCol className="marright">
+                    <a href="/portfolio/#experience">
+                      <h4 className="nav">Experience</h4>
+                    </a>
+                  </IonCol>
+                  <IonCol>
+                    <a href="/portfolio/#project">
+                      <h4 className="nav">Project</h4>
+                    </a>
+                  </IonCol>
+                  <IonCol className="nav">
+                    <a href="/portfolio/#contact">
+                      <h4 className="nav">Contact</h4>
+                    </a>
+                  </IonCol>
+                  <IonCol className="nav">
+                    <a href={cvPdf} target="_blank" download="VigneshKannaa-CV">
+                      <h4 className="nav">CV</h4>
+                    </a>
+                  </IonCol>
+                </IonRow>
               </IonCol>
             </IonRow>
           </IonGrid>
