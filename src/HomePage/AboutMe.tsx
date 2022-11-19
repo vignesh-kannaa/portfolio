@@ -26,8 +26,8 @@ const AboutMe = () => {
           </h3>
         </IonCol>
         <IonCol size="6">
-          <div className="image ion-text-center">
-            <img src={require("../assets/images/vignesh.png")} />
+          <div className="ion-text-center">
+            <img className="image" src={require("../assets/images/vignesh.png")} />
           </div>
         </IonCol>
       </IonRow>

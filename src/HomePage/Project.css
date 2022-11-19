@@ -1,14 +1,14 @@
+.title {
+  font-size: 6vmin;
+  color: white;
+}
 .content {
   font-size: 4vmin;
   color: white;
 }
-.title {
-  font-size: 9vmin;
-  color: white;
-}
+
 .ion-chip {
-  font-size: 3vmin;
-  padding: 30px;
+  font-size: 2.5vmin;
   color: white;
   background: #231c43;
 }
@@ -16,17 +16,17 @@
   margin: 5% 0;
 }
 .ion-icon-project {
-  font-size: 8.5vmin;
+  font-size: 6vmin;
   margin: 0 3% 0 0;
 }
 .card {
   border-radius: 40px;
-  height: 100%;
+  height: 75%;
   overflow: hidden;
   position: relative;
 }
 .card-body {
-  opacity: 0;
+  /* opacity: 0; */
   width: 100%;
   height: 100%;
   top: 0%;
@@ -43,6 +43,11 @@
 }
 .project-margin {
   margin: 5%;
+}
+.projectImg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 @media screen and (min-width: 601px) {
 }
@@ -62,7 +67,6 @@
 
   .ion-chip {
     font-size: 3vmin;
-    padding: 8px;
     color: white;
     background: #231c43;
   }
