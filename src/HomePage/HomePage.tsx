@@ -7,6 +7,7 @@ import Project from "./Project";
 import "./HomePage.css";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
+import Skills from "./Skills";
 
 const Homepage = () => {
   return (
@@ -19,6 +20,7 @@ const Homepage = () => {
             <AboutMe></AboutMe>
             <Experience></Experience>
             <Project></Project>
+            <Skills></Skills>
             <Contact></Contact>
             <Footer></Footer>
           </div>

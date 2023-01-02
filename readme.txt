@@ -4,4 +4,4 @@ commands to run the project
     npm install -g @ionic/cli
 
 2.run the project 
-    ionic serve
+    npm start or ionic serve

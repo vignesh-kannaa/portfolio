@@ -1,5 +1,4 @@
 import { IonCol, IonGrid, IonRow } from '@ionic/react'
-import { IonAvatar } from '@ionic/react'
 import './AboutMe.css'
 
 const AboutMe = () => {
