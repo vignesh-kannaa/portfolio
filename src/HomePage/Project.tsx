@@ -23,7 +23,7 @@ const Project = () => {
   const [projectClicked, setProjectClicked] = useState('')
 
   const gitHub = 'https://github.com/vignesh-kannaa'
-  const gitHubCreditRiskPredict = gitHub + '/ml-credit_risk_prediction'
+  const gitHubDiabetesPredict = gitHub + '/ml-Diabetes_Prediction'
   const gitHubUnsupuervisedLearning = gitHub + '/ml-unsupervised-customer-segmentation'
   const playStoreSpotaround = 'https://play.google.com/store/apps/details?id=com.spotaround'
   return (
@@ -66,14 +66,14 @@ const Project = () => {
               className="bg mar-positive"
               onClick={() => {
                 setIsShown(true)
-                setProjectClicked('creditRiskPrediction')
+                setProjectClicked('diabetesPrediction')
               }}
             >
-              <img src={require('../assets/images/creditrisk.jpg')} />
+              <img src={require('../assets/images/diabetes.jpg')} />
               <IonCardHeader>
                 <IonRow>
-                  <IonTitle className="title">Credit Risk Prediction</IonTitle>
-                  <a target="_blank" href={gitHubCreditRiskPredict}>
+                  <IonTitle className="title">Diabetes Prediction</IonTitle>
+                  <a target="_blank" href={gitHubDiabetesPredict}>
                     <IonIcon className="ion-icon-project" icon={logoGithub}></IonIcon>
                   </a>
                 </IonRow>
@@ -84,7 +84,7 @@ const Project = () => {
                 </IonCardSubtitle>
               </IonCardHeader>
               <IonCardContent className="content">
-                Supervised Machine Learning Classifier models to predict credit risk
+                Supervised Machine Learning Classifier models to predict diabetes
               </IonCardContent>
             </IonCard>
           </IonCol>

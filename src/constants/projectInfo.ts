@@ -5,13 +5,13 @@ export const customerSegmentation = {
   projectUrl: 'https://github.com/vignesh-kannaa/ml-unsupervised-customer-segmentation',
   description: 'Customer segmentation using Unspervised algorithms such as K means, Hierarchical ',
 }
-export const creditRiskPrediction = {
-  title: 'Credit Risk Prediction',
-  images: ['creditrisk.jpg', 'creditrisk.jpg'],
+export const diabetesPrediction = {
+  title: 'Diabetes Prediction',
+  images: ['diabetes1.png', 'diabetes2.png'],
   category: 'ML - Supervised',
-  projectUrl: 'https://github.com/vignesh-kannaa/ml-credit_risk_prediction',
+  projectUrl: 'https://github.com/vignesh-kannaa/ml-Diabetes_Prediction',
   description:
-    'Prediction of credit card risk using supervised learning like random forest , support vector, MLP and finding the efficient method',
+    'Predicting Diabetes using ensemble techniques - Analysing the data, Model evaluation, Model Tuning',
 }
 export const spotAround = {
   title: 'Spot Around',
