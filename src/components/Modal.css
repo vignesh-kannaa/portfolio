@@ -1,0 +1,37 @@
+.modal-ion-icon {
+  font-size: 5vmin;
+}
+.modalTitle {
+  color: white;
+  font-size: 30px;
+  margin: 2% 0% 2% 2%;
+}
+.modalSubTitle {
+  color: white;
+  font-size: 25px;
+  padding: 1% 1% 5% 1;
+}
+.swiper-pagination-bullet {
+  background-color: white;
+}
+ion-modal {
+  --width: 80%;
+}
+.modalDescription {
+  padding-left: 2%;
+}
+.modalContent {
+  color: white;
+  font-size: 18px;
+}
+.modalSubContent {
+  color: #c5c5c5;
+  font-size: 18px;
+}
+.projectUrl {
+  font-style: italic;
+  color: #c5c5c5;
+}
+.modalMargin {
+  margin: 0 3% 0 3%;
+}

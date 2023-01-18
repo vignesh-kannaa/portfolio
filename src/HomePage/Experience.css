@@ -8,6 +8,7 @@ ion-segment-button {
   color: white;
   border-radius: 20px;
   margin: 13%;
+  --indicator-color: none;
 }
 .expTitle {
   font-size: 30px;
