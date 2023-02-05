@@ -1,3 +1,11 @@
+export const animePrediction = {
+  title: 'Anime Prediction',
+  images: ['animeprediction-1.png', 'animeprediction-2.png'],
+  category: 'DL - CNN',
+  projectUrl: 'https://github.com/vignesh-kannaa/dl-cnn-Anime_Character_Prediction.git',
+  description:
+    'Image classification of one piece anime character using Deep Learning Convolutional Neural Network',
+}
 export const customerSegmentation = {
   title: 'Customer Segmentation',
   images: ['customerSegmentation.jpeg', 'customerSegmentation.jpeg'],

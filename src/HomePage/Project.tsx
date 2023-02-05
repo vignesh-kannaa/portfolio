@@ -12,8 +12,9 @@ import {
 } from '@ionic/react'
 import { logoGithub, logoGooglePlaystore } from 'ionicons/icons'
 import { useState } from 'react'
-import { FaJava ,FaPython,FaAngular} from "react-icons/fa";
-import { GrMysql} from "react-icons/gr";
+import { FaJava, FaPython, FaAngular } from 'react-icons/fa'
+import { GrMysql } from 'react-icons/gr'
+import { SiTensorflow } from 'react-icons/si'
 import Modal from '../components/Modal'
 
 import './Project.css'
@@ -25,6 +26,7 @@ const Project = () => {
   const gitHub = 'https://github.com/vignesh-kannaa'
   const gitHubDiabetesPredict = gitHub + '/ml-Diabetes_Prediction'
   const gitHubUnsupuervisedLearning = gitHub + '/ml-unsupervised-customer-segmentation'
+  const gitHubAnimePrediction = gitHub + '/dl-cnn-Anime_Character_Prediction'
   const playStoreSpotaround = 'https://play.google.com/store/apps/details?id=com.spotaround'
   return (
     <div id="project" className="section_margin">
@@ -33,7 +35,66 @@ const Project = () => {
       <IonGrid>
         {isShown && <Modal title={projectClicked} closeModal={() => setIsShown(false)} />}
         <IonRow>
-          <IonCol size="12" sizeMd="6">
+          <IonCol size="12" sizeMd="4">
+            <IonCard
+              className="bg section-margin-desc"
+              onClick={() => {
+                setIsShown(true)
+                setProjectClicked('animePrediction')
+              }}
+            >
+              <img src={require('../assets/images/animeprediction.jpg')} />
+              <IonCardHeader>
+                <IonRow>
+                  <IonTitle className="title">Anime Prediction</IonTitle>
+                  <a target="_blank" href={gitHubAnimePrediction}>
+                    <IonIcon className="ion-icon-project" icon={logoGithub}></IonIcon>
+                  </a>
+                </IonRow>
+                <IonCardSubtitle>
+                  <IonChip className="ion-chip ">
+                    <FaPython className="chipIcon" /> Python
+                  </IonChip>
+                  <IonChip className="ion-chip ">
+                    <SiTensorflow className="chipIcon" /> Tensorflow
+                  </IonChip>
+                </IonCardSubtitle>
+              </IonCardHeader>
+              <IonCardContent className="content">
+                Deep Learning Convolutional Neural Network for Image classification
+              </IonCardContent>
+            </IonCard>
+          </IonCol>
+
+          <IonCol size="12" sizeMd="4">
+            <IonCard
+              className="bg section-margin-desc"
+              onClick={() => {
+                setIsShown(true)
+                setProjectClicked('diabetesPrediction')
+              }}
+            >
+              <img src={require('../assets/images/diabetes.jpg')} />
+              <IonCardHeader>
+                <IonRow>
+                  <IonTitle className="title">Diabetes Prediction</IonTitle>
+                  <a target="_blank" href={gitHubDiabetesPredict}>
+                    <IonIcon className="ion-icon-project" icon={logoGithub}></IonIcon>
+                  </a>
+                </IonRow>
+                <IonCardSubtitle>
+                  <IonChip className="ion-chip ">
+                    <FaPython className="chipIcon" /> Python
+                  </IonChip>
+                </IonCardSubtitle>
+              </IonCardHeader>
+              <IonCardContent className="content">
+                Supervised Machine Learning Classifier models to predict diabetes using ensemble
+                models
+              </IonCardContent>
+            </IonCard>
+          </IonCol>
+          <IonCol size="12" sizeMd="4">
             <IonCard
               className="bg section-margin-desc"
               onClick={() => {
@@ -51,7 +112,7 @@ const Project = () => {
                 </IonRow>
                 <IonCardSubtitle>
                   <IonChip className="ion-chip ">
-                  <FaPython className='chipIcon'/> Python
+                    <FaPython className="chipIcon" /> Python
                   </IonChip>
                 </IonCardSubtitle>
               </IonCardHeader>
@@ -61,38 +122,11 @@ const Project = () => {
               </IonCardContent>
             </IonCard>
           </IonCol>
-          <IonCol size="12" sizeMd="6">
-            <IonCard
-              className="bg mar-positive"
-              onClick={() => {
-                setIsShown(true)
-                setProjectClicked('diabetesPrediction')
-              }}
-            >
-              <img src={require('../assets/images/diabetes.jpg')} />
-              <IonCardHeader>
-                <IonRow>
-                  <IonTitle className="title">Diabetes Prediction</IonTitle>
-                  <a target="_blank" href={gitHubDiabetesPredict}>
-                    <IonIcon className="ion-icon-project" icon={logoGithub}></IonIcon>
-                  </a>
-                </IonRow>
-                <IonCardSubtitle>
-                  <IonChip className="ion-chip ">
-                  <FaPython className='chipIcon'/> Python
-                  </IonChip>
-                </IonCardSubtitle>
-              </IonCardHeader>
-              <IonCardContent className="content">
-                Supervised Machine Learning Classifier models to predict diabetes
-              </IonCardContent>
-            </IonCard>
-          </IonCol>
         </IonRow>
         <IonRow>
-          <IonCol size="12" sizeMd="6">
+          <IonCol size="12" sizeMd="4">
             <IonCard
-              className="bg mar-negative"
+              className="bg"
               onClick={() => {
                 setIsShown(true)
                 setProjectClicked('spotAround')
@@ -111,15 +145,17 @@ const Project = () => {
                 </IonRow>
                 <IonCardSubtitle>
                   <IonChip className="ion-chip ">
-                    <FaJava className='chipIcon'/>
+                    <FaJava className="chipIcon" />
                     Java
                   </IonChip>
                   <IonChip className="ion-chip">
-                    <FaAngular className='chipIcon'/>Angular
+                    <FaAngular className="chipIcon" />
+                    Angular
                   </IonChip>
                   <IonChip className="ion-chip">
-                  <GrMysql  className='chipIcon'/>
-                  Mysql</IonChip>
+                    <GrMysql className="chipIcon" />
+                    Mysql
+                  </IonChip>
                 </IonCardSubtitle>
               </IonCardHeader>
               <IonCardContent className="content">

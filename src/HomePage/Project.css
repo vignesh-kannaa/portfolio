@@ -26,16 +26,10 @@ ion-card {
 ion-card:hover {
   opacity: 0.6;
 }
-.chipIcon{
+.chipIcon {
   padding-right: 5px;
 }
 @media screen and (min-width: 601px) {
-  .mar-positive {
-    margin-top: 60%;
-  }
-  .mar-negative {
-    margin-top: -25%;
-  }
 }
 /* ion-card:hover {
   box-shadow: #7a51d258 -10px 10px, #7a51d254 -20px 20px;
