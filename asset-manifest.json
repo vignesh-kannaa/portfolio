@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.10acc200.css",
-    "main.js": "/portfolio/static/js/main.257c48c9.js",
+    "main.css": "/portfolio/static/css/main.4c102bf9.css",
+    "main.js": "/portfolio/static/js/main.b08a84e0.js",
     "static/js/443.5441a6da.chunk.js": "/portfolio/static/js/443.5441a6da.chunk.js",
     "static/js/738.6d9c974b.chunk.js": "/portfolio/static/js/738.6d9c974b.chunk.js",
     "static/js/372.54ec7a94.chunk.js": "/portfolio/static/js/372.54ec7a94.chunk.js",
@@ -13,20 +13,26 @@
     "static/js/186.fe0e1150.chunk.js": "/portfolio/static/js/186.fe0e1150.chunk.js",
     "static/media/customerSegmentation.jpeg": "/portfolio/static/media/customerSegmentation.96735eb286320d71e3fd.jpeg",
     "static/media/bannerImg.gif": "/portfolio/static/media/bannerImg.25c08199005cf8e586f7.gif",
+    "static/media/objectDetection-2.gif": "/portfolio/static/media/objectDetection-2.af60ef54194c12c552db.gif",
     "static/media/animeprediction-1.png": "/portfolio/static/media/animeprediction-1.2026f9f88974a03f4501.png",
     "static/media/animeprediction-2.png": "/portfolio/static/media/animeprediction-2.4d94ad79fd334f278784.png",
     "static/media/spotaround.png": "/portfolio/static/media/spotaround.35f4c856bbfecfeaa14c.png",
+    "static/media/objectDetection-1.png": "/portfolio/static/media/objectDetection-1.791d908b82a612d06151.png",
     "static/media/diabetes.jpg": "/portfolio/static/media/diabetes.f2b933eccb5b36176ae1.jpg",
     "static/media/vignesh.jpg": "/portfolio/static/media/vignesh.33e65d6add5f17783bf2.jpg",
-    "static/media/animeprediction.jpg": "/portfolio/static/media/animeprediction.f71024cf92b6ad32b206.jpg",
+    "static/media/spotaround_1.png": "/portfolio/static/media/spotaround_1.52d501f6d5a0febb1ab8.png",
+    "static/media/sentimentanalysis-1.png": "/portfolio/static/media/sentimentanalysis-1.36586bb5a91372613d1f.png",
     "static/media/diabetes1.png": "/portfolio/static/media/diabetes1.066bdcdae4d5feb5dde4.png",
+    "static/media/customerSegmentation_1.png": "/portfolio/static/media/customerSegmentation_1.ab6d29163cd77ce5aa2c.png",
     "static/media/diabetes2.png": "/portfolio/static/media/diabetes2.4d1a2915d03bb38a45cd.png",
     "static/media/RedHatDisplay-Medium.ttf": "/portfolio/static/media/RedHatDisplay-Medium.65ef66b97e516b1a83d7.ttf",
     "static/media/RedHatDisplay-Bold.ttf": "/portfolio/static/media/RedHatDisplay-Bold.89a56cdc034c1b9b470c.ttf",
+    "static/media/objectDetection.jpeg": "/portfolio/static/media/objectDetection.895114353941afa07b04.jpeg",
+    "static/media/sentimentanalysis.png": "/portfolio/static/media/sentimentanalysis.f7ecf609e8a229c8f22a.png",
     "static/media/memoji.png": "/portfolio/static/media/memoji.ee068d59659e5a70d4b1.png",
     "index.html": "/portfolio/index.html",
-    "main.10acc200.css.map": "/portfolio/static/css/main.10acc200.css.map",
-    "main.257c48c9.js.map": "/portfolio/static/js/main.257c48c9.js.map",
+    "main.4c102bf9.css.map": "/portfolio/static/css/main.4c102bf9.css.map",
+    "main.b08a84e0.js.map": "/portfolio/static/js/main.b08a84e0.js.map",
     "443.5441a6da.chunk.js.map": "/portfolio/static/js/443.5441a6da.chunk.js.map",
     "738.6d9c974b.chunk.js.map": "/portfolio/static/js/738.6d9c974b.chunk.js.map",
     "372.54ec7a94.chunk.js.map": "/portfolio/static/js/372.54ec7a94.chunk.js.map",
@@ -38,7 +44,7 @@
     "186.fe0e1150.chunk.js.map": "/portfolio/static/js/186.fe0e1150.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10acc200.css",
-    "static/js/main.257c48c9.js"
+    "static/css/main.4c102bf9.css",
+    "static/js/main.b08a84e0.js"
   ]
 }
