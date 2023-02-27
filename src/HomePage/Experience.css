@@ -25,7 +25,7 @@ ion-segment-button {
 }
 .bgColor-exp {
   background-color: #2f2b44;
-  border-radius: 30px;
+  border-radius: 25px;
 }
 @media screen and (max-width: 601px) {
   .expTitle {

@@ -12,7 +12,7 @@ import { GrMysql } from 'react-icons/gr'
 import { GiProcessor } from 'react-icons/gi'
 import { IoLogoCss3 } from 'react-icons/io'
 import { DiGit } from 'react-icons/di'
-import { SiTensorflow, SiTypescript, SiGraphql, SiJson, SiAdobe } from 'react-icons/si'
+import { SiTensorflow, SiTypescript, SiGraphql, SiJson, SiAdobe, SiPytorch } from 'react-icons/si'
 import './Skills.css'
 
 const Skills = () => {
@@ -50,6 +50,16 @@ const Skills = () => {
                   <SiTensorflow className="contact-ion-icon" />
                 </div>
                 <div>Tensorflow</div>
+              </IonCardContent>
+            </IonCard>
+          </IonCol>
+          <IonCol>
+            <IonCard className="cardContent centerflex">
+              <IonCardContent>
+                <div>
+                  <SiPytorch className="contact-ion-icon" />
+                </div>
+                <div>Pytorch</div>
               </IonCardContent>
             </IonCard>
           </IonCol>
@@ -208,19 +218,9 @@ const Skills = () => {
             <IonCard className="cardContent centerflex ">
               <IonCardContent>
                 <div>
-                  <SiAdobe className="contact-ion-icon"/>
+                  <SiAdobe className="contact-ion-icon" />
                 </div>
                 <div>AEM</div>
-              </IonCardContent>
-            </IonCard>
-          </IonCol>
-          <IonCol>
-            <IonCard className="cardContent centerflex ">
-              <IonCardContent>
-                <div>
-                  <SiJson className="contact-ion-icon" />
-                </div>
-                <div>JSON</div>
               </IonCardContent>
             </IonCard>
           </IonCol>

@@ -1,7 +1,6 @@
 import {
   IonButton,
   IonModal,
-  IonHeader,
   IonToolbar,
   IonTitle,
   IonButtons,
@@ -50,7 +49,7 @@ const Modal = ({ closeModal, title }: any) => {
                 <IonSlides pager options={slideOptsOne}>
                 {projectData.images.map(image => (
                   <IonSlide>
-                    <img src={require(`../assets/images/${image}`)} />
+                    <img src={require(`../assets/images/${image}`)}/>
                   </IonSlide>
                   ))}
                 </IonSlides>
