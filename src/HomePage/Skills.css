@@ -1,0 +1,17 @@
+.cardContent{
+    background: #2F2B44;
+    color: white;
+    height: 85px;
+    width: 185px;
+    padding: 4px;
+    cursor: auto;
+    pointer-events: none;
+    border-radius: 15px;
+}
+.centerItems{
+    text-align: center;   
+}
+.centerflex{
+    justify-content: center;
+    display: flex;
+}

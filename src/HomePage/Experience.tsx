@@ -1,8 +1,6 @@
 import {
-  IonCard,
   IonCol,
   IonGrid,
-  IonLabel,
   IonRow,
   IonSegment,
   IonSegmentButton,
