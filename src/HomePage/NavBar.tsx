@@ -4,7 +4,7 @@ import './NavBar.css'
 
 const NavBar = () => {
   const cvPdf =
-    'https://drive.google.com/file/d/1apL0J8CsMVzAjZoxSKrebP1xv5Zx9OX3/view?usp=share_link'
+    'https://drive.google.com/file/d/1ACV4eVZm5pfSZeEDY2gRdxPNcx_vmc5o/view?usp=share_link'
   return (
     <IonHeader>
       <IonToolbar className="padding-page">
