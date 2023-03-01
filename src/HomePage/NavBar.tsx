@@ -1,18 +1,10 @@
-import {
-  IonCol,
-  IonGrid,
-  IonHeader,
-  IonIcon,
-  IonRow,
-  IonTitle,
-  IonToolbar,
-} from "@ionic/react";
+import { IonCol, IonGrid, IonHeader, IonIcon, IonRow, IonTitle, IonToolbar } from '@ionic/react'
 
-import "./NavBar.css";
+import './NavBar.css'
 
 const NavBar = () => {
   const cvPdf =
-    "https://drive.google.com/file/d/1i9l-rbxGuDyEZxNMnkq7zUgkR7H39Hb5/view?usp=share_link";
+    'https://drive.google.com/file/d/1apL0J8CsMVzAjZoxSKrebP1xv5Zx9OX3/view?usp=share_link'
   return (
     <IonHeader>
       <IonToolbar className="padding-page">
@@ -20,7 +12,7 @@ const NavBar = () => {
           <IonGrid>
             <IonRow>
               <IonCol size="6">
-                <img src={require("../assets/images/Logo.png")} />
+                <img src={require('../assets/images/Logo.png')} />
               </IonCol>
               <IonCol>
                 <IonRow>
@@ -56,6 +48,6 @@ const NavBar = () => {
         </IonTitle>
       </IonToolbar>
     </IonHeader>
-  );
-};
-export default NavBar;
+  )
+}
+export default NavBar

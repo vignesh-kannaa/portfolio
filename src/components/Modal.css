@@ -17,6 +17,7 @@
 ion-modal {
   --width: 80%;
   --border-radius: 15px;
+  --backdrop-opacity: var(--ion-backdrop-opacity, 0.75);
 }
 .modalDescription {
   padding-left: 2%;
