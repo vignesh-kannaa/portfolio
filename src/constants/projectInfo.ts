@@ -1,6 +1,6 @@
 export const sentimentAnalysis = {
   title: 'Sentiment Analysis',
-  images: ['sentimentanalysis-1.png', 'sentimentanalysis.png'],
+  images: ['sentimentanalysis.png', 'sentimentanalysis-1.png', 'sentimentanalysis-2.png'],
   category: 'DL - NLP',
   projectUrl: 'https://github.com/vignesh-kannaa/dl-nlp-Sentiment_analysis_movie_review.git',
   description:
