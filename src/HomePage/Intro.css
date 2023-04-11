@@ -1,7 +1,7 @@
 .header {
   color: white;
   font-size: 128px;
-  font-family: "RedHat-Bold";
+  font-family: 'RedHat-Bold';
   background: linear-gradient(91.96deg, #ffffff 42.35%, #9983fc 97.46%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -17,6 +17,7 @@
 }
 
 .intro-desc {
+  padding-top: 5%;
   font-size: 32px;
   color: #c5c5c5;
 }
