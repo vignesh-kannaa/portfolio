@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bee24428.css",
-    "main.js": "/portfolio/static/js/main.607174d1.js",
+    "main.css": "/portfolio/static/css/main.271ea7e8.css",
+    "main.js": "/portfolio/static/js/main.28d9103c.js",
     "static/js/443.5441a6da.chunk.js": "/portfolio/static/js/443.5441a6da.chunk.js",
     "static/js/738.6d9c974b.chunk.js": "/portfolio/static/js/738.6d9c974b.chunk.js",
     "static/js/372.54ec7a94.chunk.js": "/portfolio/static/js/372.54ec7a94.chunk.js",
@@ -18,6 +18,7 @@
     "static/media/animeprediction-2.png": "/portfolio/static/media/animeprediction-2.4d94ad79fd334f278784.png",
     "static/media/spotaround.png": "/portfolio/static/media/spotaround.35f4c856bbfecfeaa14c.png",
     "static/media/sentimentanalysis.png": "/portfolio/static/media/sentimentanalysis.8508ea3cc338c73afbc1.png",
+    "static/media/hyundai-logo.png": "/portfolio/static/media/hyundai-logo.15514584354d9e40659d.png",
     "static/media/objectDetection-1.png": "/portfolio/static/media/objectDetection-1.791d908b82a612d06151.png",
     "static/media/diabetes.jpg": "/portfolio/static/media/diabetes.f2b933eccb5b36176ae1.jpg",
     "static/media/vignesh.jpg": "/portfolio/static/media/vignesh.33e65d6add5f17783bf2.jpg",
@@ -29,11 +30,18 @@
     "static/media/diabetes2.png": "/portfolio/static/media/diabetes2.4d1a2915d03bb38a45cd.png",
     "static/media/RedHatDisplay-Medium.ttf": "/portfolio/static/media/RedHatDisplay-Medium.65ef66b97e516b1a83d7.ttf",
     "static/media/RedHatDisplay-Bold.ttf": "/portfolio/static/media/RedHatDisplay-Bold.89a56cdc034c1b9b470c.ttf",
+    "static/media/enqos-logo.png": "/portfolio/static/media/enqos-logo.2512adae72b319a552b8.png",
     "static/media/objectDetection.jpeg": "/portfolio/static/media/objectDetection.895114353941afa07b04.jpeg",
-    "static/media/memoji.png": "/portfolio/static/media/memoji.ee068d59659e5a70d4b1.png",
+    "static/media/sysbiz-logo.png": "/portfolio/static/media/sysbiz-logo.36fec78fbcaaa1fdf4db.png",
+    "static/media/MySql.svg": "/portfolio/static/media/MySql.c9286640a470004f40f8.svg",
+    "static/media/Java.svg": "/portfolio/static/media/Java.5386b56c3206b6bd70b1.svg",
+    "static/media/Python.svg": "/portfolio/static/media/Python.026a62687ef705a39cfc.svg",
+    "static/media/Yolo.svg": "/portfolio/static/media/Yolo.1f3412d8740add0d107d.svg",
     "index.html": "/portfolio/index.html",
-    "main.bee24428.css.map": "/portfolio/static/css/main.bee24428.css.map",
-    "main.607174d1.js.map": "/portfolio/static/js/main.607174d1.js.map",
+    "static/media/Angular.svg": "/portfolio/static/media/Angular.f9ef2acacb9c7dcc60c4.svg",
+    "static/media/Tensorflow.svg": "/portfolio/static/media/Tensorflow.d978d6b0a450f5416ab4.svg",
+    "main.271ea7e8.css.map": "/portfolio/static/css/main.271ea7e8.css.map",
+    "main.28d9103c.js.map": "/portfolio/static/js/main.28d9103c.js.map",
     "443.5441a6da.chunk.js.map": "/portfolio/static/js/443.5441a6da.chunk.js.map",
     "738.6d9c974b.chunk.js.map": "/portfolio/static/js/738.6d9c974b.chunk.js.map",
     "372.54ec7a94.chunk.js.map": "/portfolio/static/js/372.54ec7a94.chunk.js.map",
@@ -45,7 +53,7 @@
     "186.fe0e1150.chunk.js.map": "/portfolio/static/js/186.fe0e1150.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bee24428.css",
-    "static/js/main.607174d1.js"
+    "static/css/main.271ea7e8.css",
+    "static/js/main.28d9103c.js"
   ]
 }
