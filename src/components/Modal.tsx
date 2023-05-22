@@ -26,6 +26,16 @@ const Modal = ({ closeModal, title }: any) => {
     autoplay: true,
   }
   const projectData = projectInfo[title as keyof typeof projectInfo]
+  // console.log('project info:', projectInfo)
+  // const projectList = Object.entries(projectInfo).map(([key, value]) => ({ key, value }))
+
+  // for (let i = 0; i < projectList.length; i++) {
+  //   console.log(projectList)
+  //   const project = projectList[i]
+  //   if (project.value['title'] === projectData.title) {
+  //     console.log(`The index of the project is ${i}.`)
+  //   }
+  // }
   return (
     <div>
       <IonModal
@@ -43,23 +53,21 @@ const Modal = ({ closeModal, title }: any) => {
           </IonButtons>
         </IonToolbar>
         <IonContent>
-          <IonGrid className='modalMargin'>
+          <IonGrid className="modalMargin">
             <IonRow>
               <IonCol size="12" sizeMd="6">
                 <IonSlides pager options={slideOptsOne}>
-                {projectData.images.map(image => (
-                  <IonSlide>
-                    <img src={require(`../assets/images/${image}`)}/>
-                  </IonSlide>
+                  {projectData.images.map((image) => (
+                    <IonSlide>
+                      <img src={require(`../assets/images/${image}`)} />
+                    </IonSlide>
                   ))}
                 </IonSlides>
               </IonCol>
               <IonCol size="12" sizeMd="6" className="modalDescription">
                 <IonLabel className="modalSubTitle">Project Information</IonLabel>
                 <div className="modalContent">
-                  <p>
-                    Category: &nbsp; {projectData.category}
-                  </p>
+                  <p>Category: &nbsp; {projectData.category}</p>
                   <p>
                     Project Url:
                     <a className="projectUrl" target="_blank" href={projectData.projectUrl}>

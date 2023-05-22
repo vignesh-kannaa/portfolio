@@ -3,7 +3,7 @@ import './AboutMe.css'
 
 const AboutMe = () => {
   return (
-    <IonGrid className="section_margin">
+    <IonGrid id="about" className="section_margin">
       <h1>About Me</h1>
       <hr></hr>
       <IonRow className="section-margin-desc">

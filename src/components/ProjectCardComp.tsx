@@ -9,10 +9,8 @@ import {
   IonRow,
   IonTitle,
 } from '@ionic/react'
-import { logoGithub } from 'ionicons/icons'
+import { chevronForwardOutline, logoGithub } from 'ionicons/icons'
 import { useState } from 'react'
-import { FaPython } from 'react-icons/fa'
-import { SiTensorflow } from 'react-icons/si'
 import * as projectInfo from '../constants/projectInfo'
 import Modal from './Modal'
 
@@ -37,10 +35,10 @@ const ProjectCardComp = ({ title }: any) => {
           <img src={require(`../assets/images/${projectData.images[0]}`)} className="projImg" />
           <IonCardHeader>
             <IonRow>
-              <IonCol size='10'>
+              <IonCol size="10">
                 <IonTitle className="title">{projectData.title}</IonTitle>
               </IonCol>
-              <IonCol size='2'>
+              <IonCol size="2">
                 <a target="_blank" href={projectData.projectUrl}>
                   <IonIcon className="ion-icon-project" icon={logoGithub}></IonIcon>
                 </a>
@@ -50,6 +48,7 @@ const ProjectCardComp = ({ title }: any) => {
               {projectData.tech.map((item, index) => {
                 return (
                   <IonChip key={index} className="ion-chip ">
+                    <img className='techlog' src={require(`../assets/images/techlogos/${item}.svg`)}></img>
                     {item}
                   </IonChip>
                 )

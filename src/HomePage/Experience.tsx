@@ -14,16 +14,37 @@ const Experience = () => {
       <hr></hr>
       <IonGrid className="bgColor-exp section-margin-desc">
         <IonRow>
-          <IonCol size="4" size-md="3">
+          <IonCol size="4" size-md="3" className="mar">
             <IonSegment value={segmentValue} onIonChange={eventtrigger}>
               <IonSegmentButton value="enqos">
-                <h2>Enqos</h2>
+                <IonRow className="format-title">
+                  <IonCol className="format-logo">
+                    <img src={require(`../assets/images/enqos-logo.png`)} />
+                  </IonCol>
+                  <IonCol>
+                    <h2>Enqos</h2>
+                  </IonCol>
+                </IonRow>
               </IonSegmentButton>
               <IonSegmentButton value="hyundai">
-                <h2>Hyundai</h2>
+                <IonRow className="format-title">
+                  <IonCol className="format-logo">
+                    <img src={require(`../assets/images/hyundai-logo.png`)} alt='hyundai logo'/>
+                  </IonCol>
+                  <IonCol>
+                    <h2>Hyundai</h2>
+                  </IonCol>
+                </IonRow>
               </IonSegmentButton>
               <IonSegmentButton value="sysbiz">
-                <h2>Sysbiz</h2>
+                <IonRow className="format-title">
+                  <IonCol className="format-logo">
+                    <img src={require(`../assets/images/sysbiz-logo.png`)} />
+                  </IonCol>
+                  <IonCol>
+                    <h2>Sysbiz</h2>
+                  </IonCol>
+                </IonRow>
               </IonSegmentButton>
             </IonSegment>
           </IonCol>

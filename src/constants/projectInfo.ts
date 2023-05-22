@@ -5,7 +5,7 @@ export const sentimentAnalysis = {
   projectUrl: 'https://github.com/vignesh-kannaa/dl-nlp-Sentiment_analysis_movie_review.git',
   description:
     'The project involves utilizing natural language processing techniques of TensorFlow and BERT for conducting sentiment analysis on movie reviews. The analysis aims to determine the polarity of the expressed opinions in the reviews as either positive or negative',
-  tech: ['Python', 'Tensorflow', 'NLP'],
+  tech: ['Python', 'Tensorflow'],
   details: 'Deep Learning Natural Language Processing for Sentiment Analysis',
 }
 export const ObjectDetection = {
@@ -25,7 +25,7 @@ export const animePrediction = {
   projectUrl: 'https://github.com/vignesh-kannaa/dl-cnn-Anime_Character_Prediction.git',
   description:
     'The project involves developing a deep learning convolutional neural network (CNN) for image classification of characters from One Piece anime. The CNN model is trained to classify input images into respective character classes with high accuracy',
-  tech: ['Python', 'Tensorflow', 'CNN'],
+  tech: ['Python', 'Tensorflow'],
   details: 'Deep Learning Convolutional Neural Network for Image classification',
 }
 export const customerSegmentation = {
@@ -35,7 +35,7 @@ export const customerSegmentation = {
   projectUrl: 'https://github.com/vignesh-kannaa/ml-unsupervised-customer-segmentation',
   description:
     'The project involves utilizing unsupervised machine learning algorithms such as K-means and Hierarchical clustering for customer segmentation. The analysis aims to group customers into distinct segments based on similar characteristics or behaviors, which can then be targeted with tailored marketing strategies',
-  tech: ['Python', 'ML'],
+  tech: ['Python'],
   details: 'Unsupervised Machine learning  for customer segmentation using mall customer data',
 }
 export const diabetesPrediction = {
@@ -45,7 +45,7 @@ export const diabetesPrediction = {
   projectUrl: 'https://github.com/vignesh-kannaa/ml-Diabetes_Prediction',
   description:
     'The project aims to predict diabetes using ensemble techniques. The process includes data analysis, model evaluation, and model tuning to develop an accurate model. The ensemble approach combines multiple models to improve the predictive power, thereby increasing the accuracy of the diabetes prediction.',
-  tech: ['Python', 'ML'],
+  tech: ['Python'],
   details: 'Supervised Machine Learning Classifier models to predict diabetes',
 }
 export const spotAround = {

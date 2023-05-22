@@ -4,7 +4,7 @@ import './NavBar.css'
 
 const NavBar = () => {
   const cvPdf =
-    'https://drive.google.com/file/d/1ACV4eVZm5pfSZeEDY2gRdxPNcx_vmc5o/view?usp=share_link'
+    'https://drive.google.com/file/d/10fwh1Ulm2V_FvSM6K1npKpPGorlZx1x0/view?usp=share_link'
   return (
     <IonHeader>
       <IonToolbar className="padding-page">
@@ -12,13 +12,15 @@ const NavBar = () => {
           <IonGrid>
             <IonRow>
               <IonCol size="6">
-                <img src={require('../assets/images/Logo.png')} />
+                <a href="/portfolio/#intro">
+                  <img src={require('../assets/images/Logo.png')} />
+                </a>
               </IonCol>
               <IonCol>
                 <IonRow>
                   <IonCol>
-                    <a href="/portfolio/#about">
-                      <h4 className="nav">About</h4>
+                    <a href="/portfolio/#project">
+                      <h4 className="nav">Project</h4>
                     </a>
                   </IonCol>
                   <IonCol className="marright">
@@ -26,9 +28,10 @@ const NavBar = () => {
                       <h4 className="nav">Experience</h4>
                     </a>
                   </IonCol>
+
                   <IonCol>
-                    <a href="/portfolio/#project">
-                      <h4 className="nav">Project</h4>
+                    <a href="/portfolio/#about">
+                      <h4 className="nav">About</h4>
                     </a>
                   </IonCol>
                   <IonCol className="nav">
