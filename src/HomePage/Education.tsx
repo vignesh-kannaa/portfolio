@@ -1,5 +1,7 @@
-import { IonCol, IonGrid, IonRow } from '@ionic/react'
+import { IonGrid } from '@ionic/react'
 import './Education.css'
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
+import 'react-vertical-timeline-component/style.min.css'
 
 const Education = () => {
   return (
@@ -8,65 +10,43 @@ const Education = () => {
       <hr></hr>
 
       <IonGrid className="section_margin">
-        <div className="timeline">
-          <div className="container left">
-            <div className="content">
-              <h4>2023</h4>
-              <h3>Masters in Artificial Intelligence</h3>
-              <p>
-                <i>Aston University</i>
-              </p>
-              <p>
-                <i>Birmingham, United Kingdom</i>
-              </p>
-            </div>
-          </div>
-          <div className="container right">
-            <div className="content">
-              <h4>2018</h4>
-              <h3>Bachelors in Engineering</h3>
-              <p>
-                <i>CEG - Anna University</i>
-              </p>
-              <p>
-                <i>Chennai, India</i>
-              </p>
-            </div>
-          </div>
-        </div>
-        {/*
-          <IonRow className="margin">
-           <IonCol size="4" size-md="3">
-            <h3>2023</h3>
-          </IonCol>
-          <IonCol>
-            <h4>
-              <IonRow>Masters in Artificial Intelligence</IonRow>
-              <IonRow>
-                <i>Aston University</i>
-              </IonRow>
-              <IonRow>
-                <i>Birmingham, United Kingdom</i>
-              </IonRow>
-            </h4>
-          </IonCol> 
-        </IonRow>
-        <IonRow className="margin">
-          {/* <IonCol size="4" size-md="3">
-            <h3>2018</h3>
-          </IonCol>
-          <IonCol>
-            <h4>
-              <IonRow>Bachelors in Engineering</IonRow>
-              <IonRow>
-                <i>CEG - Anna University</i>
-              </IonRow>
-              <IonRow>
-                <i>Chennai, India</i>
-              </IonRow>
-            </h4>
-          </IonCol>
-        </IonRow> */}
+        <VerticalTimeline>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: '#2f2b44', color: '#FFFFFF' }}
+            contentArrowStyle={{ borderRight: '7px solid  #2f2b44' }}
+            date="2023"
+            iconStyle={{ background: '#ffffff' }}
+            icon={<img src={require(`../assets/images/aston-logo.png`)} alt="aston logo" />}
+          >
+            <h3>Masters in Artificial Intelligence</h3>
+
+            <h4>Aston University</h4>
+            <p>
+              <i>Birmingham, United Kingdom</i>
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: '#2f2b44', color: '#FFFFFF' }}
+            contentArrowStyle={{ borderRight: '7px solid  #2f2b44' }}
+            date="2018"
+            iconStyle={{ background: '#ffffff' }}
+            icon={
+              <img
+                src={require(`../assets/images/annauniversity-logo.png`)}
+                alt="anna university logo"
+              />
+            }
+          >
+            <h3>Bachelors in Engineering</h3>
+
+            <h4>CEG - Anna University</h4>
+            <p>
+              <i>Chennai, India</i>
+            </p>
+          </VerticalTimelineElement>
+        </VerticalTimeline>
       </IonGrid>
     </div>
   )

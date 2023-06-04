@@ -12,9 +12,9 @@
   position: relative;
   display: flex;
 }
-.herocontent {
+/* .herocontent {
   position: absolute;
-}
+} */
 
 .intro-desc {
   padding-top: 5%;
