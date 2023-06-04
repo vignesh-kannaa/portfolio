@@ -1,4 +1,4 @@
-import { IonCol, IonGrid, IonHeader, IonIcon, IonRow, IonTitle, IonToolbar } from '@ionic/react'
+import { IonCol, IonGrid, IonHeader, IonRow, IonTitle, IonToolbar } from '@ionic/react'
 
 import './NavBar.css'
 
@@ -12,8 +12,8 @@ const NavBar = () => {
           <IonGrid>
             <IonRow>
               <IonCol size="6">
-                <a href="/portfolio/#intro">
-                  <img src={require('../assets/images/Logo.png')} />
+                <a href="/portfolio/#intro" rel="noreferrer">
+                  <img src={require('../assets/images/Logo.png')} alt="logo " />
                 </a>
               </IonCol>
               <IonCol>
@@ -30,17 +30,17 @@ const NavBar = () => {
                   </IonCol>
 
                   <IonCol>
-                    <a href="/portfolio/#about">
+                    <a href="/portfolio/#about" rel="noreferrer">
                       <h4 className="nav">About</h4>
                     </a>
                   </IonCol>
                   <IonCol className="nav">
-                    <a href="/portfolio/#contact">
+                    <a href="/portfolio/#contact" rel="noreferrer">
                       <h4 className="nav">Contact</h4>
                     </a>
                   </IonCol>
                   <IonCol className="nav">
-                    <a href={cvPdf} target="_blank" download="VigneshKannaa-CV">
+                    <a href={cvPdf} target="_blank" rel="noreferrer" download="VigneshKannaa-CV">
                       <h4 className="nav">CV</h4>
                     </a>
                   </IonCol>

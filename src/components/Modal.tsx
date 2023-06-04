@@ -59,7 +59,7 @@ const Modal = ({ closeModal, title }: any) => {
                 <IonSlides pager options={slideOptsOne}>
                   {projectData.images.map((image) => (
                     <IonSlide>
-                      <img src={require(`../assets/images/${image}`)} />
+                      <img src={require(`../assets/images/${image}`)} alt="project details" />
                     </IonSlide>
                   ))}
                 </IonSlides>
@@ -70,7 +70,12 @@ const Modal = ({ closeModal, title }: any) => {
                   <p>Category: &nbsp; {projectData.category}</p>
                   <p>
                     Project Url:
-                    <a className="projectUrl" target="_blank" href={projectData.projectUrl}>
+                    <a
+                      className="projectUrl"
+                      rel="noreferrer"
+                      target="_blank"
+                      href={projectData.projectUrl}
+                    >
                       &nbsp;&nbsp;{projectData.projectUrl}
                     </a>
                   </p>

@@ -20,7 +20,7 @@ const AboutMe = () => {
         </IonCol>
         <IonCol size="12" sizeMd="6">
           <div className="ion-text-center">
-            <img className="image" src={require('../assets/images/vignesh.jpg')} />
+            <img className="image" src={require('../assets/images/vignesh.jpg')} alt='vignesh kanna'/>
           </div>
         </IonCol>
       </IonRow>

@@ -23,7 +23,7 @@ const Contact = () => {
       <IonGrid className="section-margin-desc">
         <IonRow>
           <IonCol>
-            <a target="_blank" href={gitHub}>
+            <a target="_blank" rel="noreferrer" href={gitHub}>
               <IonButton>
                 <IonIcon
                   className="contact-ion-icon"
@@ -34,7 +34,7 @@ const Contact = () => {
             </a>
           </IonCol>
           <IonCol>
-            <a target="_blank" href={mail}>
+            <a target="_blank" rel="noreferrer" href={mail}>
               <IonButton>
                 <IonIcon
                   className="contact-ion-icon"
@@ -45,7 +45,7 @@ const Contact = () => {
             </a>
           </IonCol>
           <IonCol>
-            <a target="_blank" href={linkedIn}>
+            <a target="_blank" rel="noreferrer"href={linkedIn}>
               <IonButton>
                 <IonIcon
                   className="contact-ion-icon"
@@ -58,7 +58,7 @@ const Contact = () => {
         </IonRow>
         <IonRow>
           <IonCol>
-            <a target="_blank" href={call}>
+            <a target="_blank" rel="noreferrer"href={call}>
               <IonButton>
                 <IonIcon
                   className="contact-ion-icon"
@@ -69,7 +69,7 @@ const Contact = () => {
             </a>
           </IonCol>
           <IonCol>
-            <a target="_blank" href={instagram}>
+            <a target="_blank" rel="noreferrer"href={instagram}>
               <IonButton>
                 <IonIcon
                   className="contact-ion-icon"
@@ -80,7 +80,7 @@ const Contact = () => {
             </a>
           </IonCol>
           <IonCol>
-            <a target="_blank" href={whatsApp}>
+            <a target="_blank" rel="noreferrer"href={whatsApp}>
               <IonButton>
                 <IonIcon
                   className="contact-ion-icon"

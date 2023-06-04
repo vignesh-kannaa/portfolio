@@ -1,7 +1,7 @@
 import { IonContent, IonPage } from '@ionic/react'
 import AboutMe from './AboutMe'
 import Contact from './Contact'
-import Experience from './Experience'
+import Experiences from './Experiences'
 import Intro from './Intro'
 import Project from './Project'
 import './HomePage.css'
@@ -19,7 +19,7 @@ const Homepage = () => {
           <div className="border">
             <Intro></Intro>
             <Project />
-            <Experience />
+            <Experiences />
             <AboutMe />
             <Education />
             <Skills />
