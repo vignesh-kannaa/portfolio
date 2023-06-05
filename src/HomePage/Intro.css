@@ -12,10 +12,10 @@
   position: relative;
   display: flex;
 }
-/* .herocontent {
-  position: absolute;
-} */
+
 .robo {
+  margin-top: 100px;
+  float: right;
 }
 .intro-desc {
   padding-top: 5%;
@@ -29,7 +29,6 @@
 /* mobile */
 @media screen and (max-width: 601px) {
   .intro-content {
-    margin-bottom: 25%;
     position: relative;
     display: flex;
   }
