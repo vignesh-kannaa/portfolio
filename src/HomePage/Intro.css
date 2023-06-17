@@ -12,7 +12,9 @@
   position: relative;
   display: flex;
 }
-
+.herocontent {
+  position: absolute;
+}
 .robo {
   margin-top: 100px;
   float: right;
@@ -22,19 +24,19 @@
   font-size: 32px;
   color: #c5c5c5;
 }
-/* .bgImage {
+.bgImage {
   margin-left: auto;
   opacity: 0.5;
-} */
+}
 /* mobile */
 @media screen and (max-width: 601px) {
   .intro-content {
     position: relative;
     display: flex;
   }
-  /* .bgImage {
+  .bgImage {
     margin-top: 25%;
-  } */
+  }
   .header {
     font-size: 42px;
   }
