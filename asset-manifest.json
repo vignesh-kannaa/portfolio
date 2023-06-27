@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4d526157.css",
-    "main.js": "/portfolio/static/js/main.9020e737.js",
+    "main.css": "/portfolio/static/css/main.5ff265da.css",
+    "main.js": "/portfolio/static/js/main.9e46a22b.js",
     "static/js/443.5441a6da.chunk.js": "/portfolio/static/js/443.5441a6da.chunk.js",
     "static/js/738.6d9c974b.chunk.js": "/portfolio/static/js/738.6d9c974b.chunk.js",
     "static/js/372.54ec7a94.chunk.js": "/portfolio/static/js/372.54ec7a94.chunk.js",
@@ -37,17 +37,17 @@
     "static/media/annauniversity-logo.png": "/portfolio/static/media/annauniversity-logo.c83c46f6bdbcee3ec93c.png",
     "static/media/aston-logo.png": "/portfolio/static/media/aston-logo.715db4957fa54345c93f.png",
     "static/media/sysbiz-logo.png": "/portfolio/static/media/sysbiz-logo.36fec78fbcaaa1fdf4db.png",
-    "static/media/MySql.svg": "/portfolio/static/media/MySql.c9286640a470004f40f8.svg",
+    "static/media/MySql.svg": "/portfolio/static/media/MySql.c9286640a470004f40f86d07817e890e.svg",
     "static/media/Unity.svg": "/portfolio/static/media/Unity.1b86b0f529af0613f2fc.svg",
-    "static/media/Java.svg": "/portfolio/static/media/Java.5386b56c3206b6bd70b1.svg",
-    "static/media/PowerBI.svg": "/portfolio/static/media/PowerBI.77d15c152be6b62b0d11.svg",
-    "static/media/Python.svg": "/portfolio/static/media/Python.026a62687ef705a39cfc.svg",
+    "static/media/Java.svg": "/portfolio/static/media/Java.5386b56c3206b6bd70b1053534d73dc3.svg",
+    "static/media/PowerBI.svg": "/portfolio/static/media/PowerBI.77d15c152be6b62b0d11df437eeefff1.svg",
+    "static/media/Python.svg": "/portfolio/static/media/Python.026a62687ef705a39cfc755d7457859c.svg",
     "static/media/Yolo.svg": "/portfolio/static/media/Yolo.1f3412d8740add0d107d.svg",
     "index.html": "/portfolio/index.html",
-    "static/media/Angular.svg": "/portfolio/static/media/Angular.f9ef2acacb9c7dcc60c4.svg",
-    "static/media/Tensorflow.svg": "/portfolio/static/media/Tensorflow.d978d6b0a450f5416ab4.svg",
-    "main.4d526157.css.map": "/portfolio/static/css/main.4d526157.css.map",
-    "main.9020e737.js.map": "/portfolio/static/js/main.9020e737.js.map",
+    "static/media/Angular.svg": "/portfolio/static/media/Angular.f9ef2acacb9c7dcc60c405977c26f5fe.svg",
+    "static/media/Tensorflow.svg": "/portfolio/static/media/Tensorflow.d978d6b0a450f5416ab4aa62d3795a0c.svg",
+    "main.5ff265da.css.map": "/portfolio/static/css/main.5ff265da.css.map",
+    "main.9e46a22b.js.map": "/portfolio/static/js/main.9e46a22b.js.map",
     "443.5441a6da.chunk.js.map": "/portfolio/static/js/443.5441a6da.chunk.js.map",
     "738.6d9c974b.chunk.js.map": "/portfolio/static/js/738.6d9c974b.chunk.js.map",
     "372.54ec7a94.chunk.js.map": "/portfolio/static/js/372.54ec7a94.chunk.js.map",
@@ -59,7 +59,7 @@
     "186.fe0e1150.chunk.js.map": "/portfolio/static/js/186.fe0e1150.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d526157.css",
-    "static/js/main.9020e737.js"
+    "static/css/main.5ff265da.css",
+    "static/js/main.9e46a22b.js"
   ]
 }
