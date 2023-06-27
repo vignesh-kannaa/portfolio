@@ -1,21 +1,24 @@
-.cardContent{
-    background: #2F2B44;
-    color: white;
-    height: 85px;
-    width: 185px;
-    padding: 4px;
-    cursor: auto;
-    pointer-events: none;
-    border-radius: 15px;
+.cardContent {
+  background: #2f2b44;
+  color: white;
+  height: 85px;
+  width: 185px;
+  padding: 4px;
+  cursor: auto;
+  pointer-events: none;
+  border-radius: 15px;
 }
-.centerItems{
-    text-align: center;   
+.centerItems {
+  text-align: center;
 }
-.centerflex{
-    justify-content: center;
-    display: flex;
+.centerflex {
+  justify-content: center;
+  display: flex;
 }
-svg{
-    width: 35px;
-    height: 35px;
+svg {
+  width: 35px;
+  height: 35px;
+}
+.techlogo {
+    width: 70%;
 }
