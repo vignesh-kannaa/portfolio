@@ -28,6 +28,17 @@ export const animePrediction = {
   tech: ['Python', 'Tensorflow'],
   details: 'Deep Learning Convolutional Neural Network for Image classification',
 }
+export const financialComplaintPowerbi = {
+  title: 'Financial Dashboard',
+  images: ['powerbi.png'],
+  category: 'Data Analysis',
+  projectUrl: 'https://github.com/vignesh-kannaa/da-Financial_Consumer_Complaints',
+  description:
+    'Analyzing and visualizing consumer complaints related to financial services using Power BI interactive dashboard. Gaining valuable insights, detecting patterns, and making informed decisions to enhance customer satisfaction and optimize your business strategies.',
+  tech: ['PowerBI'],
+  details: 'Analysing financial consumer complaints using PowerBI',
+}
+
 export const customerSegmentation = {
   title: 'Customer Segmentation',
   images: ['customerSegmentation.jpeg', 'customerSegmentation_1.png'],
@@ -47,6 +58,17 @@ export const diabetesPrediction = {
     'The project aims to predict diabetes using ensemble techniques. The process includes data analysis, model evaluation, and model tuning to develop an accurate model. The ensemble approach combines multiple models to improve the predictive power, thereby increasing the accuracy of the diabetes prediction.',
   tech: ['Python'],
   details: 'Supervised Machine Learning Classifier models to predict diabetes',
+}
+export const navbot = {
+  title: 'NavBot',
+  images: ['navbot-1.jpg'],
+  category: 'Mixed Reality',
+  projectUrl: 'https://github.com/vignesh-kannaa/mixedreality-Navbot',
+  description:
+    'By leveraging Mixed reality technology (HoloLens), a virtual character  provides interactive guidance and assistance for indoor navigation, utilizing natural language processing (NLP) to respond to user queries and offer personalized navigation support.',
+  tech: ['Unity'],
+  details:
+    'An interactive virtual character guides and assists users during indoor navigation using mixed reality',
 }
 export const spotAround = {
   title: 'Spot Around',
