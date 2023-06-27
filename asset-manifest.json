@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.36734df3.css",
-    "main.js": "/portfolio/static/js/main.8aca02af.js",
+    "main.css": "/portfolio/static/css/main.4d526157.css",
+    "main.js": "/portfolio/static/js/main.9020e737.js",
     "static/js/443.5441a6da.chunk.js": "/portfolio/static/js/443.5441a6da.chunk.js",
     "static/js/738.6d9c974b.chunk.js": "/portfolio/static/js/738.6d9c974b.chunk.js",
     "static/js/372.54ec7a94.chunk.js": "/portfolio/static/js/372.54ec7a94.chunk.js",
@@ -24,8 +24,10 @@
     "static/media/spotaround_1.png": "/portfolio/static/media/spotaround_1.52d501f6d5a0febb1ab8.png",
     "static/media/sentimentanalysis-2.png": "/portfolio/static/media/sentimentanalysis-2.71ad530184f3aaf3553c.png",
     "static/media/sentimentanalysis-1.png": "/portfolio/static/media/sentimentanalysis-1.7b9f323bf4a9f14765f8.png",
+    "static/media/powerbi.png": "/portfolio/static/media/powerbi.12904fbcf2cfb2a4edf1.png",
     "static/media/diabetes1.png": "/portfolio/static/media/diabetes1.066bdcdae4d5feb5dde4.png",
     "static/media/hyundai-logo.png": "/portfolio/static/media/hyundai-logo.eef47bedbe9e37da77d5.png",
+    "static/media/navbot-1.jpg": "/portfolio/static/media/navbot-1.3819b9a55a52734dc6f8.jpg",
     "static/media/customerSegmentation_1.png": "/portfolio/static/media/customerSegmentation_1.ab6d29163cd77ce5aa2c.png",
     "static/media/diabetes2.png": "/portfolio/static/media/diabetes2.4d1a2915d03bb38a45cd.png",
     "static/media/RedHatDisplay-Medium.ttf": "/portfolio/static/media/RedHatDisplay-Medium.65ef66b97e516b1a83d7.ttf",
@@ -36,14 +38,16 @@
     "static/media/aston-logo.png": "/portfolio/static/media/aston-logo.715db4957fa54345c93f.png",
     "static/media/sysbiz-logo.png": "/portfolio/static/media/sysbiz-logo.36fec78fbcaaa1fdf4db.png",
     "static/media/MySql.svg": "/portfolio/static/media/MySql.c9286640a470004f40f8.svg",
+    "static/media/Unity.svg": "/portfolio/static/media/Unity.1b86b0f529af0613f2fc.svg",
     "static/media/Java.svg": "/portfolio/static/media/Java.5386b56c3206b6bd70b1.svg",
+    "static/media/PowerBI.svg": "/portfolio/static/media/PowerBI.77d15c152be6b62b0d11.svg",
     "static/media/Python.svg": "/portfolio/static/media/Python.026a62687ef705a39cfc.svg",
     "static/media/Yolo.svg": "/portfolio/static/media/Yolo.1f3412d8740add0d107d.svg",
     "index.html": "/portfolio/index.html",
     "static/media/Angular.svg": "/portfolio/static/media/Angular.f9ef2acacb9c7dcc60c4.svg",
     "static/media/Tensorflow.svg": "/portfolio/static/media/Tensorflow.d978d6b0a450f5416ab4.svg",
-    "main.36734df3.css.map": "/portfolio/static/css/main.36734df3.css.map",
-    "main.8aca02af.js.map": "/portfolio/static/js/main.8aca02af.js.map",
+    "main.4d526157.css.map": "/portfolio/static/css/main.4d526157.css.map",
+    "main.9020e737.js.map": "/portfolio/static/js/main.9020e737.js.map",
     "443.5441a6da.chunk.js.map": "/portfolio/static/js/443.5441a6da.chunk.js.map",
     "738.6d9c974b.chunk.js.map": "/portfolio/static/js/738.6d9c974b.chunk.js.map",
     "372.54ec7a94.chunk.js.map": "/portfolio/static/js/372.54ec7a94.chunk.js.map",
@@ -55,7 +59,7 @@
     "186.fe0e1150.chunk.js.map": "/portfolio/static/js/186.fe0e1150.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36734df3.css",
-    "static/js/main.8aca02af.js"
+    "static/css/main.4d526157.css",
+    "static/js/main.9020e737.js"
   ]
 }
