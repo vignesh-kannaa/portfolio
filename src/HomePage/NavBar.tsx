@@ -13,10 +13,14 @@ const NavBar = () => {
             <IonRow>
               <IonCol size="6">
                 <a href="/portfolio/#intro" rel="noreferrer">
-                  <img src={require('../assets/images/Logo.png')} alt="logo " />
+                  <img
+                    className="logoimage"
+                    src={require('../assets/images/Logo.png')}
+                    alt="logo "
+                  />
                 </a>
               </IonCol>
-              <IonCol>
+              <IonCol className="navbar">
                 <IonRow>
                   <IonCol>
                     <a href="/portfolio/#project">

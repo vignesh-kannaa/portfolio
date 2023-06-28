@@ -24,4 +24,10 @@
     font-size: 35px;
     padding: 0px;
   }
+  .navbar {
+    display: none;
+  }
+  .logoimage {
+    width: 30%;
+  }
 }

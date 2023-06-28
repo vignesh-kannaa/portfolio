@@ -80,7 +80,7 @@ hr {
     margin-left: 0;
   }
   h1 {
-    font-size: 36px;
+    font-size: 30px;
   }
   h2 {
     font-size: 20px;
@@ -88,7 +88,13 @@ hr {
   h3 {
     font-size: 15px;
   }
+  h4 {
+    font-size: 12px;
+  }
   .section_margin {
     margin-top: 50px;
+  }
+  h5 {
+    font-size: 10px;
   }
 }
