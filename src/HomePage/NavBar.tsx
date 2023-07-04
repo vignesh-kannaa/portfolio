@@ -5,13 +5,14 @@ import './NavBar.css'
 const NavBar = () => {
   const cvPdf =
     'https://drive.google.com/file/d/10fwh1Ulm2V_FvSM6K1npKpPGorlZx1x0/view?usp=share_link'
+
   return (
-    <IonHeader>
-      <IonToolbar className="padding-page">
-        <IonTitle>
+    <IonHeader className="navheader">
+      <IonToolbar>
+        <IonTitle className="navformat">
           <IonGrid>
             <IonRow>
-              <IonCol size="6">
+              <IonCol size="6" className="logoalign">
                 <a href="/portfolio/#intro" rel="noreferrer">
                   <img
                     className="logoimage"

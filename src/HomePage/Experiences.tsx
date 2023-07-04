@@ -1,4 +1,4 @@
-import { IonCardContent, IonGrid } from '@ionic/react'
+import { IonCardContent } from '@ionic/react'
 import './Experiences.css'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
@@ -8,7 +8,6 @@ const Experiences = () => {
     <div id="experience" className="section_margin">
       <h1>Experiences</h1>
       <hr></hr>
-      <IonGrid className="section_margin"></IonGrid>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
