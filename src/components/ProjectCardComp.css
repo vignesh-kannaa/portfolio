@@ -1,6 +1,6 @@
 .title {
   padding: 0;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
 }
 .content {
@@ -8,14 +8,17 @@
   color: #c5c5c5;
 }
 .ion-icon-project {
-  font-size: 35px;
-  margin: 0 3% 0 0;
+  font-size: 27px;
+  margin: 0 0 0 5px;
 }
 .bg {
   border-radius: 15px;
   background-color: #2f2b44;
 }
-
+.icons {
+  display: flex;
+  justify-content: flex-end;
+}
 .ion-chip {
   padding-inline: 0;
   justify-content: center;
@@ -60,14 +63,14 @@ ion-card {
     object-fit: cover;
   }
   .title {
-    font-size: 20px;
+    font-size: 18px;
   }
   .content {
     font-size: 12px;
   }
   .ion-icon-project {
-    font-size: 25px;
-    margin: 0 3% 0 0;
+    font-size: 22px;
+    margin: 0 0 0 3px;
   }
 
   .ion-chip {

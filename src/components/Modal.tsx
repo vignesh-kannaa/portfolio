@@ -17,7 +17,16 @@ import './Modal.css'
 const Modal = ({ closeModal, title }: any) => {
   const [isOpen, setIsOpen] = useState(true)
 
-  const projectData = projectInfo[title as keyof typeof projectInfo]
+  const projectData: {
+    title: string
+    images: string[]
+    category: string
+    gitUrl: string
+    projectUrl?: string
+    description: string
+    tech: string[]
+    details: string
+  } = projectInfo[title as keyof typeof projectInfo]
   // console.log('project info:', projectInfo)
   // const projectList = Object.entries(projectInfo).map(([key, value]) => ({ key, value }))
 
@@ -55,14 +64,26 @@ const Modal = ({ closeModal, title }: any) => {
                 />
               </div>
               <div className="modalContent">{projectData.description}</div>
-              <div>
-                <a target="_blank" rel="noreferrer" href={projectData.projectUrl}>
-                  <IonButton className="modalbtn">
-                    View In Github
-                    <IonIcon className="openIcon" icon={openOutline}></IonIcon>
-                  </IonButton>
-                </a>
-              </div>
+              <IonRow>
+                <div>
+                  <a target="_blank" rel="noreferrer" href={projectData.gitUrl}>
+                    <IonButton className="modalbtn">
+                      View In Github
+                      <IonIcon className="openIcon" icon={openOutline}></IonIcon>
+                    </IonButton>
+                  </a>
+                </div>
+                {projectData.projectUrl && (
+                  <div>
+                    <a target="_blank" rel="noreferrer" href={projectData.projectUrl}>
+                      <IonButton className="modalbtn">
+                        Live Project
+                        <IonIcon className="openIcon" icon={openOutline}></IonIcon>
+                      </IonButton>
+                    </a>
+                  </div>
+                )}
+              </IonRow>
             </IonRow>
           </IonGrid>
         </IonContent>

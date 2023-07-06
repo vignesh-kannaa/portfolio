@@ -1,8 +1,13 @@
 .nav:hover {
   color: #bca0f4;
+  cursor: pointer;
 }
 .navheader {
   height: 60px;
+}
+.selected {
+  font-weight: bold;
+  color: #bca0f4;
 }
 @media screen and (min-width: 601px) {
   .navformat {
@@ -38,9 +43,7 @@
     font-size: 35px;
     padding: 0px;
   }
-  .navbar {
-    display: none;
-  }
+
   .logoimage {
     width: 30px;
   }

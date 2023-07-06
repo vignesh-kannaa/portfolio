@@ -1,11 +1,49 @@
 import { IonCol, IonGrid, IonHeader, IonRow, IonTitle, IonToolbar } from '@ionic/react'
 
 import './NavBar.css'
+import { useEffect, useRef, useState } from 'react'
 
 const NavBar = () => {
   const cvPdf =
     'https://drive.google.com/file/d/10fwh1Ulm2V_FvSM6K1npKpPGorlZx1x0/view?usp=share_link'
+  const [selectedSection, setSelectedSection] = useState('')
+  const observerRef = useRef<IntersectionObserver | null>(null)
 
+  useEffect(() => {
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.2,
+    }
+
+    const handleIntersect = (entries: any) => {
+      entries.forEach((entry: any) => {
+        if (entry.isIntersecting) {
+          setSelectedSection(entry.target.id)
+        }
+      })
+    }
+
+    observerRef.current = new IntersectionObserver(handleIntersect, observerOptions)
+    const sections = document.querySelectorAll('div.section_margin')
+    sections.forEach((section) => {
+      observerRef.current?.observe(section)
+    })
+
+    return () => {
+      if (observerRef.current) {
+        observerRef.current.disconnect()
+      }
+    }
+  }, [])
+
+  const scrollToSection = (id: string) => {
+    const section = document.getElementById(id)
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' })
+      setSelectedSection(id)
+    }
+  }
   return (
     <IonHeader className="navheader">
       <IonToolbar>
@@ -24,27 +62,38 @@ const NavBar = () => {
               <IonCol className="navbar">
                 <IonRow>
                   <IonCol>
-                    <a href="/portfolio/#project">
-                      <h4 className="nav">Project</h4>
-                    </a>
+                    <h4
+                      onClick={() => scrollToSection('project')}
+                      className={`nav ${selectedSection === 'project' ? 'selected' : ''}`}
+                    >
+                      Project
+                    </h4>
                   </IonCol>
                   <IonCol className="marright">
-                    <a href="/portfolio/#experience">
-                      <h4 className="nav">Experience</h4>
-                    </a>
+                    <h4
+                      className={`nav ${selectedSection === 'experience' ? 'selected' : ''}`}
+                      onClick={() => scrollToSection('experience')}
+                    >
+                      Experience
+                    </h4>
                   </IonCol>
-
                   <IonCol>
-                    <a href="/portfolio/#about" rel="noreferrer">
-                      <h4 className="nav">About</h4>
-                    </a>
+                    <h4
+                      onClick={() => scrollToSection('about')}
+                      className={`nav ${selectedSection === 'about' ? 'selected' : ''}`}
+                    >
+                      About
+                    </h4>
                   </IonCol>
-                  <IonCol className="nav">
-                    <a href="/portfolio/#contact" rel="noreferrer">
-                      <h4 className="nav">Contact</h4>
-                    </a>
+                  <IonCol>
+                    <h4
+                      onClick={() => scrollToSection('contact')}
+                      className={`nav ${selectedSection === 'contact' ? 'selected' : ''}`}
+                    >
+                      Contact
+                    </h4>
                   </IonCol>
-                  <IonCol className="nav">
+                  <IonCol>
                     <a href={cvPdf} target="_blank" rel="noreferrer" download="VigneshKannaa-CV">
                       <h4 className="nav">CV</h4>
                     </a>
