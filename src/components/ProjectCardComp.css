@@ -76,3 +76,7 @@ ion-card {
     background: #231c43;
   }
 }
+
+.ios .title {
+  text-align: start;
+}

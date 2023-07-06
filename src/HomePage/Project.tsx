@@ -10,13 +10,14 @@ const Project = () => {
       <hr></hr>
       <IonGrid>
         <IonRow>
+          <ProjectCardComp title="churnPrediction"></ProjectCardComp>
           <ProjectCardComp title="sentimentAnalysis"></ProjectCardComp>
-          <ProjectCardComp title="ObjectDetection"></ProjectCardComp>
           <ProjectCardComp title="animePrediction"></ProjectCardComp>
+          <ProjectCardComp title="navbot"></ProjectCardComp>
           <ProjectCardComp title="financialComplaintPowerbi"></ProjectCardComp>
+          <ProjectCardComp title="ObjectDetection"></ProjectCardComp>
           <ProjectCardComp title="customerSegmentation"></ProjectCardComp>
           <ProjectCardComp title="diabetesPrediction"></ProjectCardComp>
-          <ProjectCardComp title="navbot"></ProjectCardComp>
           <ProjectCardComp title="spotAround"></ProjectCardComp>
         </IonRow>
       </IonGrid>

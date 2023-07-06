@@ -1,3 +1,14 @@
+export const churnPrediction = {
+  title: 'Churn Analyzer',
+  images: ['churncustomer.jpg'],
+  category: 'ML - Supervised',
+  projectUrl: 'https://github.com/vignesh-kannaa/ml-Churn-Prediction.git',
+  description:
+    'The project includes various stages such as fetching data from a database, data analysis, data validation, model development, prediction, and deployment on the Azure cloud platform. The solution is designed to work in real time, providing valuable insights and predictions for bank churn',
+  tech: ['Python', 'MySql'],
+  details: 'End-to-end machine learning project focuses on Customer churn rates in banks.',
+}
+
 export const sentimentAnalysis = {
   title: 'Sentiment Analysis',
   images: ['sentimentanalysis.png', 'sentimentanalysis-1.png', 'sentimentanalysis-2.png'],

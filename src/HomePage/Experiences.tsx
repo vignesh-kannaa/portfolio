@@ -27,13 +27,9 @@ const Experiences = () => {
                 enhancing the e-commerce platform.
               </li>
               <li>
-                Utilised machine learning algorithms to optimize the recommendation engine for the
-                subscription app, significantly enhancing user engagement and driving revenue
-                growth.
-              </li>
-              <li>
-                Implemented advanced fraud detection models using machine learning techniques,
-                reducing fraudulent transactions by 40% and minimising financial losses.
+                Utilised machine learning algorithms to optimize the <b>recommendation engine</b>
+                for the subscription app, significantly enhancing user engagement and driving
+                revenue growth.
               </li>
               <li>
                 Maximized clients' profit by 60% by automating the decline recovery process for
