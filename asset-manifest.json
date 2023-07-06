@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c325f175.css",
-    "main.js": "/portfolio/static/js/main.acf53edc.js",
+    "main.css": "/portfolio/static/css/main.f5f8d4c6.css",
+    "main.js": "/portfolio/static/js/main.08d999ae.js",
     "static/js/443.5441a6da.chunk.js": "/portfolio/static/js/443.5441a6da.chunk.js",
     "static/js/738.6d9c974b.chunk.js": "/portfolio/static/js/738.6d9c974b.chunk.js",
     "static/js/372.54ec7a94.chunk.js": "/portfolio/static/js/372.54ec7a94.chunk.js",
@@ -26,6 +26,7 @@
     "static/media/sentimentanalysis-1.png": "/portfolio/static/media/sentimentanalysis-1.7b9f323bf4a9f14765f8.png",
     "static/media/powerbi.png": "/portfolio/static/media/powerbi.12904fbcf2cfb2a4edf1.png",
     "static/media/diabetes1.png": "/portfolio/static/media/diabetes1.066bdcdae4d5feb5dde4.png",
+    "static/media/churncustomer.jpg": "/portfolio/static/media/churncustomer.e1d806714022ef9c3c4f.jpg",
     "static/media/hyundai-logo.png": "/portfolio/static/media/hyundai-logo.eef47bedbe9e37da77d5.png",
     "static/media/navbot-1.jpg": "/portfolio/static/media/navbot-1.3819b9a55a52734dc6f8.jpg",
     "static/media/customerSegmentation_1.png": "/portfolio/static/media/customerSegmentation_1.ab6d29163cd77ce5aa2c.png",
@@ -46,8 +47,8 @@
     "index.html": "/portfolio/index.html",
     "static/media/Angular.svg": "/portfolio/static/media/Angular.f9ef2acacb9c7dcc60c405977c26f5fe.svg",
     "static/media/Tensorflow.svg": "/portfolio/static/media/Tensorflow.d978d6b0a450f5416ab4aa62d3795a0c.svg",
-    "main.c325f175.css.map": "/portfolio/static/css/main.c325f175.css.map",
-    "main.acf53edc.js.map": "/portfolio/static/js/main.acf53edc.js.map",
+    "main.f5f8d4c6.css.map": "/portfolio/static/css/main.f5f8d4c6.css.map",
+    "main.08d999ae.js.map": "/portfolio/static/js/main.08d999ae.js.map",
     "443.5441a6da.chunk.js.map": "/portfolio/static/js/443.5441a6da.chunk.js.map",
     "738.6d9c974b.chunk.js.map": "/portfolio/static/js/738.6d9c974b.chunk.js.map",
     "372.54ec7a94.chunk.js.map": "/portfolio/static/js/372.54ec7a94.chunk.js.map",
@@ -59,7 +60,7 @@
     "186.fe0e1150.chunk.js.map": "/portfolio/static/js/186.fe0e1150.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c325f175.css",
-    "static/js/main.acf53edc.js"
+    "static/css/main.f5f8d4c6.css",
+    "static/js/main.08d999ae.js"
   ]
 }
