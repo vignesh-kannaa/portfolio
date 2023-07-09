@@ -10,6 +10,7 @@ const Project = () => {
       <hr></hr>
       <IonGrid>
         <IonRow>
+          <ProjectCardComp title="stockBot"></ProjectCardComp>
           <ProjectCardComp title="churnPrediction"></ProjectCardComp>
           <ProjectCardComp title="sentimentAnalysis"></ProjectCardComp>
           <ProjectCardComp title="animePrediction"></ProjectCardComp>

@@ -1,3 +1,14 @@
+export const stockBot = {
+  title: 'Stock Bot',
+  images: ['stockBot.jpg'],
+  category: 'DL - NLP',
+  gitUrl: 'https://github.com/vignesh-kannaa/dl-nlp-Stock_Bot.git',
+  projectUrl: 'https://stockwise.azurewebsites.net/',
+  description:
+    "This project involves a chatbot that gives you live updates on stocks and helps you manage your own stock portfolio stored in a MySQL database. It was built using Google's Dialogflow natural language processing technology and deployed on the Azure cloud platform.",
+  tech: ['Python', 'MySql', 'Dialogflow', 'FastAPI'],
+  details: 'Real-time chatbot for personalised stock management.',
+}
 export const churnPrediction = {
   title: 'Churn Analyzer',
   images: ['churncustomer.jpg'],
@@ -6,7 +17,7 @@ export const churnPrediction = {
   projectUrl: 'https://churnanalyzerbank.azurewebsites.net/',
   description:
     'The project includes various stages such as fetching data from a database, data analysis, data validation, model development, prediction, and deployment on the Azure cloud platform. The solution is designed to work in real time, providing valuable insights and predictions for bank churn',
-  tech: ['Python', 'MySql'],
+  tech: ['Python', 'MySql', 'Flask'],
   details: 'End-to-end machine learning project focuses on Customer churn rates in banks.',
 }
 
