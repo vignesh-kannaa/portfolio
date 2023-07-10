@@ -1,6 +1,6 @@
 export const stockBot = {
   title: 'Stock Bot',
-  images: ['stockBot.jpg'],
+  images: ['stockBot.gif'],
   category: 'DL - NLP',
   gitUrl: 'https://github.com/vignesh-kannaa/dl-nlp-Stock_Bot.git',
   projectUrl: 'https://stockwise.azurewebsites.net/',
@@ -23,7 +23,7 @@ export const churnPrediction = {
 
 export const sentimentAnalysis = {
   title: 'Sentiment Analysis',
-  images: ['sentimentanalysis.png', 'sentimentanalysis-1.png', 'sentimentanalysis-2.png'],
+  images: ['sentimentanalysis.gif'],
   category: 'DL - NLP',
   gitUrl: 'https://github.com/vignesh-kannaa/dl-nlp-Sentiment_analysis_movie_review.git',
   description:
@@ -33,7 +33,7 @@ export const sentimentAnalysis = {
 }
 export const ObjectDetection = {
   title: 'Object Detection',
-  images: ['objectDetection.jpeg', 'objectDetection-1.png', 'objectDetection-2.gif'],
+  images: ['objectDetection.jpeg'],
   category: 'DL - Object Detection',
   gitUrl: 'https://github.com/vignesh-kannaa/dl-yolo-Custom_object_detection.git',
   description:
@@ -43,7 +43,7 @@ export const ObjectDetection = {
 }
 export const animePrediction = {
   title: 'Anime Prediction',
-  images: ['animeprediction-1.png', 'animeprediction-2.png'],
+  images: ['animeprediction-1.png'],
   category: 'DL - CNN',
   gitUrl: 'https://github.com/vignesh-kannaa/dl-cnn-Anime_Character_Prediction.git',
   description:
@@ -53,7 +53,7 @@ export const animePrediction = {
 }
 export const financialComplaintPowerbi = {
   title: 'Financial Dashboard',
-  images: ['powerbi.png'],
+  images: ['powerbi.gif'],
   category: 'Data Analysis',
   gitUrl: 'https://github.com/vignesh-kannaa/da-Financial_Consumer_Complaints',
   description:
@@ -64,7 +64,7 @@ export const financialComplaintPowerbi = {
 
 export const customerSegmentation = {
   title: 'Customer Segmentation',
-  images: ['customerSegmentation.jpeg', 'customerSegmentation_1.png'],
+  images: ['customerSegmentation.jpeg'],
   category: 'ML - Unsupervised',
   gitUrl: 'https://github.com/vignesh-kannaa/ml-unsupervised-customer-segmentation',
   description:
@@ -74,7 +74,7 @@ export const customerSegmentation = {
 }
 export const diabetesPrediction = {
   title: 'Diabetes Prediction',
-  images: ['diabetes.jpg', 'diabetes1.png', 'diabetes2.png'],
+  images: ['diabetes.jpg'],
   category: 'ML - Supervised',
   gitUrl: 'https://github.com/vignesh-kannaa/ml-Diabetes_Prediction',
   description:
@@ -95,7 +95,7 @@ export const navbot = {
 }
 export const spotAround = {
   title: 'Spot Around',
-  images: ['spotaround.png', 'spotaround_1.png'],
+  images: ['spotaround.png'],
   category: 'Mobile App',
   gitUrl: 'https://github.com/vignesh-kannaa/SpotAround',
   description:

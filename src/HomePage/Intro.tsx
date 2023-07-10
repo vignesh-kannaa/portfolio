@@ -12,7 +12,7 @@ const Intro = () => {
         <div className="header">Vignesh Kannaa</div>
         <div className="intro-desc">
           MSc graduate in <span className="impWord">Artificial Intelligence</span> with 4 years of
-          <span className="impWord"> Software experience.</span>
+          <span className="impWord"> Software Development experience.</span>
         </div>
         {/* </IonCol>
           <IonCol className="robo" size="12" sizeMd="5">
