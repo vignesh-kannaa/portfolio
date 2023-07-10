@@ -6,7 +6,7 @@ export const stockBot = {
   projectUrl: 'https://stockwise.azurewebsites.net/',
   description:
     "This project involves a chatbot that gives you live updates on stocks and helps you manage your own stock portfolio stored in a MySQL database. It was built using Google's Dialogflow natural language processing technology and deployed on the Azure cloud platform.",
-  tech: ['Python', 'MySql', 'Dialogflow', 'FastAPI'],
+  tech: ['Python', 'MySql', 'Dialogflow', 'RapidAPI'],
   details: 'Real-time chatbot for personalised stock management.',
 }
 export const churnPrediction = {
