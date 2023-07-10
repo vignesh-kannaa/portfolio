@@ -10,7 +10,10 @@ const Intro = () => {
           <IonCol size="12" sizeMd="7"> */}
         <h2>Hello World, I'm</h2>
         <div className="header">Vignesh Kannaa</div>
-        <div className="intro-desc">Data Scientist + Software Dev</div>
+        <div className="intro-desc">
+          MSc graduate in <span className="impWord">Artificial Intelligence</span> with 4 years of
+          <span className="impWord"> Software experience.</span>
+        </div>
         {/* </IonCol>
           <IonCol className="robo" size="12" sizeMd="5">
             <RobotCanvas />

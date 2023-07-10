@@ -27,7 +27,8 @@ const Experiences = () => {
                 enhancing the e-commerce platform.
               </li>
               <li>
-                Utilised machine learning algorithms to optimize the <b>recommendation engine</b>
+                Utilised machine learning algorithms to optimize the{' '}
+                <span className="impWord">recommendation engine </span>
                 for the subscription app, significantly enhancing user engagement and driving
                 revenue growth.
               </li>

@@ -32,6 +32,13 @@
 }
 /* mobile */
 @media screen and (max-width: 601px) {
+  .logoalign {
+    margin: auto;
+    text-align: center;
+  }
+  .navbar {
+    display: none;
+  }
   .border-format {
     padding-left: 0px;
     padding-right: 0px;

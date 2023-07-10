@@ -7,7 +7,10 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-
+.impWord {
+  color: white;
+  font-weight: 600;
+}
 .intro-content {
   position: relative;
   display: flex;
@@ -20,7 +23,7 @@
   float: right;
 }
 .intro-desc {
-  padding-top: 5%;
+  margin: 50px 250px 50px 0;
   font-size: 32px;
   color: #c5c5c5;
 }
@@ -41,6 +44,8 @@
     font-size: 42px;
   }
   .intro-desc {
-    font-size: 24px;
+    margin: 30px 0;
+    font-size: 20px;
+    color: #c5c5c5;
   }
 }

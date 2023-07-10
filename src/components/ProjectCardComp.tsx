@@ -35,7 +35,7 @@ const ProjectCardComp = ({ title }: any) => {
     <>
       {isShown && <Modal title={projectClicked} closeModal={() => setIsShown(false)} />}
       <IonCol>
-        <Tilt>
+        <Tilt className='cardAlign'>
           <IonCard
             className="bg"
             onClick={() => {
