@@ -11,7 +11,7 @@ export const stockBot = {
 }
 export const churnPrediction = {
   title: 'Churn Analyzer',
-  images: ['churncustomer.jpg'],
+  images: ['churncustomer.gif'],
   category: 'ML - Supervised',
   gitUrl: 'https://github.com/vignesh-kannaa/ml-Churn-Prediction.git',
   projectUrl: 'https://churnanalyzerbank.azurewebsites.net/',
