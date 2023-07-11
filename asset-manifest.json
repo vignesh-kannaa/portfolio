@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5c2c9584.css",
-    "main.js": "/portfolio/static/js/main.0ba9bf31.js",
+    "main.js": "/portfolio/static/js/main.e1ab77da.js",
     "static/js/443.5441a6da.chunk.js": "/portfolio/static/js/443.5441a6da.chunk.js",
     "static/js/738.6d9c974b.chunk.js": "/portfolio/static/js/738.6d9c974b.chunk.js",
     "static/js/372.54ec7a94.chunk.js": "/portfolio/static/js/372.54ec7a94.chunk.js",
@@ -11,27 +11,22 @@
     "static/js/272.38f364bf.chunk.js": "/portfolio/static/js/272.38f364bf.chunk.js",
     "static/js/841.716af25b.chunk.js": "/portfolio/static/js/841.716af25b.chunk.js",
     "static/js/186.fe0e1150.chunk.js": "/portfolio/static/js/186.fe0e1150.chunk.js",
+    "static/media/stockBot.gif": "/portfolio/static/media/stockBot.0e855c8de9b551c28837.gif",
     "static/media/customerSegmentation.jpeg": "/portfolio/static/media/customerSegmentation.96735eb286320d71e3fd.jpeg",
     "static/media/bannerImg.gif": "/portfolio/static/media/bannerImg.25c08199005cf8e586f7.gif",
-    "static/media/objectDetection-2.gif": "/portfolio/static/media/objectDetection-2.af60ef54194c12c552db.gif",
+    "static/media/churncustomer.gif": "/portfolio/static/media/churncustomer.e7b7260a4ef29ee266a7.gif",
+    "static/media/powerbi.gif": "/portfolio/static/media/powerbi.c76e7f8efb382ac18b5f.gif",
+    "static/media/sentimentanalysis.gif": "/portfolio/static/media/sentimentanalysis.41557407605b3e9668b2.gif",
     "static/media/animeprediction-1.png": "/portfolio/static/media/animeprediction-1.2026f9f88974a03f4501.png",
-    "static/media/animeprediction-2.png": "/portfolio/static/media/animeprediction-2.4d94ad79fd334f278784.png",
     "static/media/spotaround.png": "/portfolio/static/media/spotaround.35f4c856bbfecfeaa14c.png",
     "static/media/sentimentanalysis.png": "/portfolio/static/media/sentimentanalysis.8508ea3cc338c73afbc1.png",
-    "static/media/objectDetection-1.png": "/portfolio/static/media/objectDetection-1.791d908b82a612d06151.png",
     "static/media/diabetes.jpg": "/portfolio/static/media/diabetes.f2b933eccb5b36176ae1.jpg",
     "static/media/vignesh.jpg": "/portfolio/static/media/vignesh.33e65d6add5f17783bf2.jpg",
-    "static/media/spotaround_1.png": "/portfolio/static/media/spotaround_1.52d501f6d5a0febb1ab8.png",
-    "static/media/sentimentanalysis-2.png": "/portfolio/static/media/sentimentanalysis-2.71ad530184f3aaf3553c.png",
-    "static/media/sentimentanalysis-1.png": "/portfolio/static/media/sentimentanalysis-1.7b9f323bf4a9f14765f8.png",
     "static/media/stockBot.jpg": "/portfolio/static/media/stockBot.058625d541d5c6479946.jpg",
     "static/media/powerbi.png": "/portfolio/static/media/powerbi.12904fbcf2cfb2a4edf1.png",
-    "static/media/diabetes1.png": "/portfolio/static/media/diabetes1.066bdcdae4d5feb5dde4.png",
     "static/media/churncustomer.jpg": "/portfolio/static/media/churncustomer.e1d806714022ef9c3c4f.jpg",
     "static/media/hyundai-logo.png": "/portfolio/static/media/hyundai-logo.eef47bedbe9e37da77d5.png",
     "static/media/navbot-1.jpg": "/portfolio/static/media/navbot-1.3819b9a55a52734dc6f8.jpg",
-    "static/media/customerSegmentation_1.png": "/portfolio/static/media/customerSegmentation_1.ab6d29163cd77ce5aa2c.png",
-    "static/media/diabetes2.png": "/portfolio/static/media/diabetes2.4d1a2915d03bb38a45cd.png",
     "static/media/RedHatDisplay-Medium.ttf": "/portfolio/static/media/RedHatDisplay-Medium.65ef66b97e516b1a83d7.ttf",
     "static/media/RedHatDisplay-Bold.ttf": "/portfolio/static/media/RedHatDisplay-Bold.89a56cdc034c1b9b470c.ttf",
     "static/media/enqos-logo.png": "/portfolio/static/media/enqos-logo.2512adae72b319a552b8.png",
@@ -52,7 +47,7 @@
     "static/media/Angular.svg": "/portfolio/static/media/Angular.f9ef2acacb9c7dcc60c405977c26f5fe.svg",
     "static/media/Tensorflow.svg": "/portfolio/static/media/Tensorflow.d978d6b0a450f5416ab4aa62d3795a0c.svg",
     "main.5c2c9584.css.map": "/portfolio/static/css/main.5c2c9584.css.map",
-    "main.0ba9bf31.js.map": "/portfolio/static/js/main.0ba9bf31.js.map",
+    "main.e1ab77da.js.map": "/portfolio/static/js/main.e1ab77da.js.map",
     "443.5441a6da.chunk.js.map": "/portfolio/static/js/443.5441a6da.chunk.js.map",
     "738.6d9c974b.chunk.js.map": "/portfolio/static/js/738.6d9c974b.chunk.js.map",
     "372.54ec7a94.chunk.js.map": "/portfolio/static/js/372.54ec7a94.chunk.js.map",
@@ -65,6 +60,6 @@
   },
   "entrypoints": [
     "static/css/main.5c2c9584.css",
-    "static/js/main.0ba9bf31.js"
+    "static/js/main.e1ab77da.js"
   ]
 }
