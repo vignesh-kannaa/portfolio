@@ -43,7 +43,7 @@ export const ObjectDetection = {
 }
 export const animePrediction = {
   title: 'Anime Prediction',
-  images: ['animeprediction-1.png'],
+  images: ['animeprediction.gif'],
   category: 'DL - CNN',
   gitUrl: 'https://github.com/vignesh-kannaa/dl-cnn-Anime_Character_Prediction.git',
   description:
