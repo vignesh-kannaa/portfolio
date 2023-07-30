@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2f5a59cb.css",
-    "main.js": "/portfolio/static/js/main.f1dca651.js",
+    "main.js": "/portfolio/static/js/main.63bf6da0.js",
     "static/js/443.5441a6da.chunk.js": "/portfolio/static/js/443.5441a6da.chunk.js",
     "static/js/738.6d9c974b.chunk.js": "/portfolio/static/js/738.6d9c974b.chunk.js",
     "static/js/372.54ec7a94.chunk.js": "/portfolio/static/js/372.54ec7a94.chunk.js",
@@ -34,6 +34,7 @@
     "static/media/sysbiz-logo.png": "/portfolio/static/media/sysbiz-logo.36fec78fbcaaa1fdf4db.png",
     "static/media/MySql.svg": "/portfolio/static/media/MySql.c9286640a470004f40f86d07817e890e.svg",
     "static/media/Unity.svg": "/portfolio/static/media/Unity.1b86b0f529af0613f2fc.svg",
+    "static/media/Csharp.svg": "/portfolio/static/media/Csharp.caada2d5df1f578f7519.svg",
     "static/media/RapidAPI.svg": "/portfolio/static/media/RapidAPI.2b0266de165b9bd0081d.svg",
     "static/media/Dialogflow.svg": "/portfolio/static/media/Dialogflow.ecdf3763d827f4dde02a.svg",
     "static/media/Java.svg": "/portfolio/static/media/Java.5386b56c3206b6bd70b1053534d73dc3.svg",
@@ -44,7 +45,7 @@
     "static/media/Angular.svg": "/portfolio/static/media/Angular.f9ef2acacb9c7dcc60c405977c26f5fe.svg",
     "static/media/Tensorflow.svg": "/portfolio/static/media/Tensorflow.d978d6b0a450f5416ab4aa62d3795a0c.svg",
     "main.2f5a59cb.css.map": "/portfolio/static/css/main.2f5a59cb.css.map",
-    "main.f1dca651.js.map": "/portfolio/static/js/main.f1dca651.js.map",
+    "main.63bf6da0.js.map": "/portfolio/static/js/main.63bf6da0.js.map",
     "443.5441a6da.chunk.js.map": "/portfolio/static/js/443.5441a6da.chunk.js.map",
     "738.6d9c974b.chunk.js.map": "/portfolio/static/js/738.6d9c974b.chunk.js.map",
     "372.54ec7a94.chunk.js.map": "/portfolio/static/js/372.54ec7a94.chunk.js.map",
@@ -57,6 +58,6 @@
   },
   "entrypoints": [
     "static/css/main.2f5a59cb.css",
-    "static/js/main.f1dca651.js"
+    "static/js/main.63bf6da0.js"
   ]
 }
