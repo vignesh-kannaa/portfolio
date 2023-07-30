@@ -58,7 +58,7 @@ export const financialComplaintPowerbi = {
   gitUrl: 'https://github.com/vignesh-kannaa/da-Financial_Consumer_Complaints',
   description:
     'Analyzing and visualizing consumer complaints related to financial services using Power BI interactive dashboard. Gaining valuable insights, detecting patterns, and making informed decisions to enhance customer satisfaction and optimize your business strategies.',
-  tech: ['PowerBI'],
+  tech: ['PowerBI', 'MySql'],
   details: 'Analysing financial consumer complaints using PowerBI',
 }
 
@@ -89,7 +89,7 @@ export const navbot = {
   gitUrl: 'https://github.com/vignesh-kannaa/mixedreality-Navbot',
   description:
     'By leveraging Mixed reality technology (HoloLens), a virtual character  provides interactive guidance and assistance for indoor navigation, utilizing natural language processing (NLP) to respond to user queries and offer personalized navigation support.',
-  tech: ['Unity'],
+  tech: ['Csharp', 'Unity'],
   details:
     'An interactive virtual character guides and assists users during indoor navigation using mixed reality',
 }
