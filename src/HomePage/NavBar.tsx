@@ -4,7 +4,7 @@ import './NavBar.css'
 import { useEffect, useRef, useState } from 'react'
 
 const NavBar = () => {
-  const cvPdf = 'https://drive.google.com/file/d/1ORLShp6tK5MQVldg_yzxa0WAFOjlbrHU/view?usp=sharing'
+  const cvPdf = 'https://drive.google.com/file/d/1azeX-9zd8U173n-2ANbchhgjmySGLwKF/view'
   const [selectedSection, setSelectedSection] = useState('')
   const observerRef = useRef<IntersectionObserver | null>(null)
 
