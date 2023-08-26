@@ -103,3 +103,13 @@ export const spotAround = {
   tech: ['Java', 'Angular', 'MySql'],
   details: 'Mobile App that will help to spot local freelancers anywhere',
 }
+export const sentimentAnalysisPlugin = {
+  title: 'Sentiment Analysis on Customer Reviews',
+  images: ['customer-reviews.png'],
+  category: 'Technical Considerations',
+  gitUrl: 'https://github.com/vignesh-kannaa/dl-nlp-Sentiment_analysis_customer_reviews',
+  description:
+    'Research to enhance user experience with browser extension that analyzes product or location reviews, delivering comprehensive feedback insights. Empower informed decisions through sentiment analysis.',
+  tech: ['Python'],
+  details: 'Technical Insights into a Customer Review Sentiment Analysis Plugin',
+}

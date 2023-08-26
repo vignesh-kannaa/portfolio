@@ -17,6 +17,7 @@ const Project = () => {
           <ProjectCardComp title="animePrediction"></ProjectCardComp>
           <ProjectCardComp title="navbot"></ProjectCardComp>
           <ProjectCardComp title="financialComplaintPowerbi"></ProjectCardComp>
+          <ProjectCardComp title="sentimentAnalysisPlugin"></ProjectCardComp>
           <ProjectCardComp title="ObjectDetection"></ProjectCardComp>
           <ProjectCardComp title="customerSegmentation"></ProjectCardComp>
           <ProjectCardComp title="diabetesPrediction"></ProjectCardComp>
