@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2f5a59cb.css",
-    "main.js": "/portfolio/static/js/main.ea58a5c9.js",
+    "main.js": "/portfolio/static/js/main.5d4a797c.js",
     "static/js/443.5441a6da.chunk.js": "/portfolio/static/js/443.5441a6da.chunk.js",
     "static/js/738.6d9c974b.chunk.js": "/portfolio/static/js/738.6d9c974b.chunk.js",
     "static/js/372.54ec7a94.chunk.js": "/portfolio/static/js/372.54ec7a94.chunk.js",
@@ -21,6 +21,7 @@
     "static/media/animeprediction-1.png": "/portfolio/static/media/animeprediction-1.2026f9f88974a03f4501.png",
     "static/media/spotaround.png": "/portfolio/static/media/spotaround.35f4c856bbfecfeaa14c.png",
     "static/media/diabetes.jpg": "/portfolio/static/media/diabetes.f2b933eccb5b36176ae1.jpg",
+    "static/media/customer-reviews.png": "/portfolio/static/media/customer-reviews.8d7658ad53aee1c2d1b5.png",
     "static/media/vignesh.jpg": "/portfolio/static/media/vignesh.33e65d6add5f17783bf2.jpg",
     "static/media/hyundai-logo.png": "/portfolio/static/media/hyundai-logo.eef47bedbe9e37da77d5.png",
     "static/media/navbot-1.jpg": "/portfolio/static/media/navbot-1.3819b9a55a52734dc6f8.jpg",
@@ -45,7 +46,7 @@
     "static/media/Angular.svg": "/portfolio/static/media/Angular.f9ef2acacb9c7dcc60c405977c26f5fe.svg",
     "static/media/Tensorflow.svg": "/portfolio/static/media/Tensorflow.d978d6b0a450f5416ab4aa62d3795a0c.svg",
     "main.2f5a59cb.css.map": "/portfolio/static/css/main.2f5a59cb.css.map",
-    "main.ea58a5c9.js.map": "/portfolio/static/js/main.ea58a5c9.js.map",
+    "main.5d4a797c.js.map": "/portfolio/static/js/main.5d4a797c.js.map",
     "443.5441a6da.chunk.js.map": "/portfolio/static/js/443.5441a6da.chunk.js.map",
     "738.6d9c974b.chunk.js.map": "/portfolio/static/js/738.6d9c974b.chunk.js.map",
     "372.54ec7a94.chunk.js.map": "/portfolio/static/js/372.54ec7a94.chunk.js.map",
@@ -58,6 +59,6 @@
   },
   "entrypoints": [
     "static/css/main.2f5a59cb.css",
-    "static/js/main.ea58a5c9.js"
+    "static/js/main.5d4a797c.js"
   ]
 }
