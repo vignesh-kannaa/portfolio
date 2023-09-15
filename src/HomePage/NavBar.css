@@ -9,27 +9,27 @@
   font-weight: bold;
   color: #bca0f4;
 }
-@media screen and (min-width: 601px) {
-  .navformat {
-    height: 64px;
-    padding: 0 7%;
-  }
 
-  .ion-icon-intro {
-    font-size: 35px;
-    padding: 0px;
-  }
-  .marright {
-    margin-right: 4%;
-  }
-  .logoimage {
-    width: 48px;
-  }
-  .logoalign {
-    display: flex;
-    align-items: flex-end;
-  }
+.navformat {
+  height: 64px;
+  padding: 0 7%;
 }
+
+.ion-icon-intro {
+  font-size: 35px;
+  padding: 0px;
+}
+.marright {
+  margin-right: 4%;
+}
+.logoimage {
+  width: 48px;
+}
+.logoalign {
+  display: flex;
+  align-items: flex-end;
+}
+
 /* mobile */
 @media screen and (max-width: 601px) {
   .logoalign {
@@ -53,5 +53,27 @@
 
   .logoimage {
     width: 30px;
+  }
+}
+/* Tab */
+@media screen and (min-width: 601px) and (max-width: 912px) {
+  .navformat {
+    height: 120px;
+    padding: 0 7%;
+  }
+
+  .ion-icon-intro {
+    font-size: 35px;
+    padding: 0px;
+  }
+  .marright {
+    margin-right: 4%;
+  }
+  .logoimage {
+    width: 48px;
+  }
+  .logoalign {
+    display: flex;
+    align-items: flex-end;
   }
 }

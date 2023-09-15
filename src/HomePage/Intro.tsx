@@ -1,4 +1,7 @@
 import './Intro.css'
+import { IonIcon } from '@ionic/react'
+import { logoGithub, logoLinkedin } from 'ionicons/icons'
+import { SiLeetcode } from 'react-icons/si'
 
 const Intro = () => {
   return (
@@ -20,6 +23,17 @@ const Intro = () => {
           </IonCol> 
         </IonRow>
       </IonGrid>*/}
+        <div>
+          <a target="_blank" rel="noreferrer" href="https://leetcode.com/vigneshkannaa">
+            <SiLeetcode className="contact-ion-icon" />
+          </a>
+          <a target="_blank" rel="noreferrer" href="https://github.com/vignesh-kannaa">
+            <IonIcon className="contact-ion-icon" icon={logoGithub}></IonIcon>
+          </a>
+          <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/vignesh-kannaa">
+            <IonIcon className="contact-ion-icon" icon={logoLinkedin}></IonIcon>
+          </a>
+        </div>
       </div>
     </div>
   )
