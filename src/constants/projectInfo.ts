@@ -84,7 +84,7 @@ export const diabetesPrediction = {
 }
 export const navbot = {
   title: 'NavBot',
-  images: ['navbot-1.jpg'],
+  images: ['navbot.gif'],
   category: 'Mixed Reality',
   gitUrl: 'https://github.com/vignesh-kannaa/mixedreality-Navbot',
   description:
