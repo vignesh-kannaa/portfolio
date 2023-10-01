@@ -35,6 +35,7 @@
   .logoalign {
     margin: auto;
     text-align: center;
+    justify-content: center;
   }
   .navbar {
     display: none;
