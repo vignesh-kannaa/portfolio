@@ -18,9 +18,9 @@ const Homepage = () => {
         <IonContent>
           <div className="border">
             <Intro></Intro>
-            <Project />
-            <Experiences />
             <AboutMe />
+            <Experiences />
+            <Project />
             <Education />
             <Skills />
             <Contact />

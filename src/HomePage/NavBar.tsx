@@ -4,7 +4,8 @@ import './NavBar.css'
 import { useEffect, useRef, useState } from 'react'
 
 const NavBar = () => {
-  const cvPdf = 'https://drive.google.com/file/d/1azeX-9zd8U173n-2ANbchhgjmySGLwKF/view'
+  const cvPdf =
+    'https://drive.google.com/file/d/1oyzLf-BLv5TTqQJkBE3YjgVzzx0uQs3R/view?usp=share_link'
   const [selectedSection, setSelectedSection] = useState('')
   const observerRef = useRef<IntersectionObserver | null>(null)
 
@@ -62,10 +63,10 @@ const NavBar = () => {
                 <IonRow>
                   <IonCol>
                     <h4
-                      onClick={() => scrollToSection('project')}
-                      className={`nav ${selectedSection === 'project' ? 'selected' : ''}`}
+                      onClick={() => scrollToSection('about')}
+                      className={`nav ${selectedSection === 'about' ? 'selected' : ''}`}
                     >
-                      Project
+                      About
                     </h4>
                   </IonCol>
                   <IonCol className="marright">
@@ -78,10 +79,10 @@ const NavBar = () => {
                   </IonCol>
                   <IonCol>
                     <h4
-                      onClick={() => scrollToSection('about')}
-                      className={`nav ${selectedSection === 'about' ? 'selected' : ''}`}
+                      onClick={() => scrollToSection('project')}
+                      className={`nav ${selectedSection === 'project' ? 'selected' : ''}`}
                     >
-                      About
+                      Project
                     </h4>
                   </IonCol>
                   <IonCol>

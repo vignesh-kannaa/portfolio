@@ -12,6 +12,20 @@ const Skills = () => {
       <IonGrid className="section-margin-desc centerItems ">
         <IonRow>
           <IonCol>
+            <IonCard className="cardContent centerflex ">
+              <IonCardContent>
+                <div>
+                  <img
+                    className="techlogo"
+                    src={require(`../assets/images/techlogos/Java.svg`).default}
+                    alt="Java logo"
+                  ></img>
+                </div>
+                <div>Java</div>
+              </IonCardContent>
+            </IonCard>
+          </IonCol>
+          <IonCol>
             <IonCard className="cardContent centerflex">
               <IonCardContent>
                 <div>
@@ -36,7 +50,7 @@ const Skills = () => {
             </IonCard>
           </IonCol> */}
 
-          <IonCol>
+          {/* <IonCol>
             <IonCard className="cardContent centerflex">
               <IonCardContent>
                 <div>
@@ -50,8 +64,8 @@ const Skills = () => {
                 <div>Tensorflow</div>
               </IonCardContent>
             </IonCard>
-          </IonCol>
-          <IonCol>
+          </IonCol> */}
+          {/* <IonCol>
             <IonCard className="cardContent centerflex">
               <IonCardContent>
                 <div>
@@ -60,8 +74,8 @@ const Skills = () => {
                 <div>Pytorch</div>
               </IonCardContent>
             </IonCard>
-          </IonCol>
-          <IonCol>
+          </IonCol> */}
+          {/* <IonCol>
             <IonCard className="cardContent centerflex">
               <IonCardContent>
                 <div>
@@ -70,8 +84,8 @@ const Skills = () => {
                 <div>Machine Learning</div>
               </IonCardContent>
             </IonCard>
-          </IonCol>
-          <IonCol>
+          </IonCol> */}
+          {/* <IonCol>
             <IonCard className="cardContent centerflex">
               <IonCardContent>
                 <div>
@@ -80,8 +94,8 @@ const Skills = () => {
                 <div>Deep Learning</div>
               </IonCardContent>
             </IonCard>
-          </IonCol>
-          <IonCol>
+          </IonCol> */}
+          {/* <IonCol>
             <IonCard className="cardContent centerflex">
               <IonCardContent>
                 <div>
@@ -94,7 +108,7 @@ const Skills = () => {
                 <div>Power BI</div>
               </IonCardContent>
             </IonCard>
-          </IonCol>
+          </IonCol> */}
 
           <IonCol>
             <IonCard className="cardContent centerflex">
@@ -225,20 +239,7 @@ const Skills = () => {
               </IonCardContent>
             </IonCard>
           </IonCol>
-          <IonCol>
-            <IonCard className="cardContent centerflex ">
-              <IonCardContent>
-                <div>
-                  <img
-                    className="techlogo"
-                    src={require(`../assets/images/techlogos/Java.svg`).default}
-                    alt="Java logo"
-                  ></img>
-                </div>
-                <div>Java</div>
-              </IonCardContent>
-            </IonCard>
-          </IonCol>
+
           <IonCol>
             <IonCard className="cardContent centerflex ">
               <IonCardContent>

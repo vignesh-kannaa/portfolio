@@ -23,18 +23,22 @@ const Experiences = () => {
           <IonCardContent className="content">
             <ul>
               <li>
-                Drove the rapid development of an enterprise-grade subscription app, significantly
-                enhancing the e-commerce platform.
+                Developed an E-commerce platform app that helps clients seamlessly manage product
+                subscriptions and maximize recurring payments, resulting in a 30% reduction in
+                customer churn.
               </li>
               <li>
-                Utilised machine learning algorithms to optimize the{' '}
-                <span className="impWord">recommendation engine </span>
-                for the subscription app, significantly enhancing user engagement and driving
-                revenue growth.
+                Achieved a remarkable 60% increase in client profit by implementing Automated
+                Dunning Management for smooth recovery of failed transactions.
               </li>
               <li>
-                Maximized clients' profit by 60% by automating the decline recovery process for
-                failed transactions, improving efficiency, and reducing losses.
+                Utilized AWS Kinesis for real-time monitoring of financial transactions, effectively
+                preventing fraudulent activities and safeguarding against potential losses,
+                resulting in a notable 20% reduction in fraudulent incidents.
+              </li>
+              <li>
+                Proficiently managed two additional applications, Sales Notifications and
+                Post-Purchase Services, leading to a notable boost in overall sales performance.
               </li>
             </ul>
           </IonCardContent>
@@ -53,13 +57,18 @@ const Experiences = () => {
           <IonCardContent className="content">
             <ul>
               <li>
-                Managed a suite of internal applications to sustain employees in the manufacturing
-                plant, improving efficiency and enhancing the employee experience.
+                Maintained backend development for the Kia website, ensuring smooth online bookings,
+                secure payments, and efficient management of model details.
               </li>
               <li>
-                Expertly refined numerous reusable components with customizable features,
-                streamlining the development process and delivering a more flexible and efficient
-                platform.
+                Efficiently managed employee finances using an internal application, ensuring timely
+                updates for business-related travel and maintaining accurate payment records for
+                each employee.
+              </li>
+              <li>
+                Re-architected the employee expense management application by migrating from Angular
+                JS to Angular 2, reducing load times by 25% and improving overall system
+                responsiveness.
               </li>
             </ul>
           </IonCardContent>
@@ -78,13 +87,12 @@ const Experiences = () => {
           <IonCardContent className="content">
             <ul>
               <li>
-                Completed an intensive 3-month training program in Java development, gaining
-                hands-on experience with real-time applications and demonstrating exceptional skill
-                and expertise.
+                Contributed to an agile team effort to enhance sales forecasting, leading to a
+                remarkable 30% reduction in forecast errors.
               </li>
               <li>
-                Successfully maintained a medical project focused on managing timely forecasts,
-                pricing, and deduction accruals.
+                Streamlined data integration processes, ensuring seamless data flow between diverse
+                sources by developing and maintaining ETL pipelines.
               </li>
             </ul>
           </IonCardContent>
