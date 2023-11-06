@@ -31,7 +31,7 @@ const Intro = () => {
           <a target="_blank" rel="noreferrer" href="https://github.com/vignesh-kannaa">
             <IonIcon className="contact-ion-icon" icon={logoGithub}></IonIcon>
           </a>
-          <a target="_blank" rel="noreferrer" href="https://leetcode.com/vigneshkannaa">
+          <a target="_blank" rel="noreferrer" href="https://leetcode.com/vignesh-kannaa">
             <SiLeetcode className="contact-ion-icon" />
           </a>
         </div>
