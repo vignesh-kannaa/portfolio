@@ -1,13 +1,16 @@
 .header {
   color: white;
   font-size: 128px;
-  font-family: "RedHat-Bold";
+  font-family: 'RedHat-Bold';
   background: linear-gradient(91.96deg, #ffffff 42.35%, #9983fc 97.46%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-
+.impWord {
+  color: white;
+  font-weight: 600;
+}
 .intro-content {
   position: relative;
   display: flex;
@@ -15,9 +18,13 @@
 .herocontent {
   position: absolute;
 }
-
+.robo {
+  margin-top: 100px;
+  float: right;
+}
 .intro-desc {
-  font-size: 32px;
+  margin: 50px 400px 60px 0;
+  font-size: 28px;
   color: #c5c5c5;
 }
 .bgImage {
@@ -27,17 +34,37 @@
 /* mobile */
 @media screen and (max-width: 601px) {
   .intro-content {
-    margin-bottom: 25%;
     position: relative;
     display: flex;
   }
   .bgImage {
-    margin-top: 25%;
+    margin-top: 45%;
   }
   .header {
     font-size: 42px;
   }
   .intro-desc {
-    font-size: 24px;
+    margin: 30px 0 50px 0;
+    font-size: 20px;
+    color: #c5c5c5;
+  }
+}
+
+/* tab */
+@media screen and (min-width: 601px) and (max-width: 912px) {
+  .intro-content {
+    position: relative;
+    display: flex;
+  }
+  .bgImage {
+    margin-top: 0%;
+  }
+  .header {
+    font-size: 42px;
+  }
+  .intro-desc {
+    margin: 30px 0 50px 0;
+    font-size: 20px;
+    color: #c5c5c5;
   }
 }

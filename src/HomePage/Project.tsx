@@ -2,6 +2,7 @@ import { IonGrid, IonRow } from '@ionic/react'
 import ProjectCardComp from '../components/ProjectCardComp'
 
 import './Project.css'
+import MainProjectComp from '../components/MainProjectComp'
 
 const Project = () => {
   return (
@@ -10,9 +11,14 @@ const Project = () => {
       <hr></hr>
       <IonGrid>
         <IonRow>
+          <ProjectCardComp title="navbot"></ProjectCardComp>
+          <ProjectCardComp title="stockBot"></ProjectCardComp>
           <ProjectCardComp title="sentimentAnalysis"></ProjectCardComp>
-          <ProjectCardComp title="ObjectDetection"></ProjectCardComp>
           <ProjectCardComp title="animePrediction"></ProjectCardComp>
+          <ProjectCardComp title="churnPrediction"></ProjectCardComp>
+          <ProjectCardComp title="financialComplaintPowerbi"></ProjectCardComp>
+          <ProjectCardComp title="sentimentAnalysisPlugin"></ProjectCardComp>
+          <ProjectCardComp title="ObjectDetection"></ProjectCardComp>
           <ProjectCardComp title="customerSegmentation"></ProjectCardComp>
           <ProjectCardComp title="diabetesPrediction"></ProjectCardComp>
           <ProjectCardComp title="spotAround"></ProjectCardComp>

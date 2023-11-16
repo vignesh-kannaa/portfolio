@@ -1,51 +1,100 @@
-import {
-  IonCol,
-  IonGrid,
-  IonHeader,
-  IonIcon,
-  IonRow,
-  IonTitle,
-  IonToolbar,
-} from "@ionic/react";
+import { IonCol, IonGrid, IonHeader, IonRow, IonTitle, IonToolbar } from '@ionic/react'
 
-import "./NavBar.css";
+import './NavBar.css'
+import { useEffect, useRef, useState } from 'react'
 
 const NavBar = () => {
   const cvPdf =
-    "https://drive.google.com/file/d/1i9l-rbxGuDyEZxNMnkq7zUgkR7H39Hb5/view?usp=share_link";
+    'https://drive.google.com/file/d/1QfvrtPrU2siehSNbwSYcCx5XiukvX7e_/view?usp=drive_link'
+  const [selectedSection, setSelectedSection] = useState('')
+  const observerRef = useRef<IntersectionObserver | null>(null)
+
+  useEffect(() => {
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.2,
+    }
+
+    const handleIntersect = (entries: any) => {
+      entries.forEach((entry: any) => {
+        if (entry.isIntersecting) {
+          setSelectedSection(entry.target.id)
+        }
+      })
+    }
+
+    observerRef.current = new IntersectionObserver(handleIntersect, observerOptions)
+    const sections = document.querySelectorAll('div.section_margin')
+    sections.forEach((section) => {
+      observerRef.current?.observe(section)
+    })
+
+    return () => {
+      if (observerRef.current) {
+        observerRef.current.disconnect()
+      }
+    }
+  }, [])
+
+  const scrollToSection = (id: string) => {
+    const section = document.getElementById(id)
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' })
+      setSelectedSection(id)
+    }
+  }
   return (
-    <IonHeader>
-      <IonToolbar className="padding-page">
-        <IonTitle>
+    <IonHeader className="navheader">
+      <IonToolbar>
+        <IonTitle className="navformat">
           <IonGrid>
             <IonRow>
-              <IonCol size="6">
-                <img src={require("../assets/images/Logo.png")} />
+              <IonCol size="6" className="logoalign">
+                <a href="/portfolio/#intro" rel="noreferrer">
+                  <img
+                    className="logoimage"
+                    src={require('../assets/images/Logo.png')}
+                    alt="logo "
+                  />
+                </a>
               </IonCol>
-              <IonCol>
+              <IonCol className="navbar">
                 <IonRow>
                   <IonCol>
-                    <a href="/portfolio/#about">
-                      <h4 className="nav">About</h4>
-                    </a>
+                    <h4
+                      onClick={() => scrollToSection('about')}
+                      className={`nav ${selectedSection === 'about' ? 'selected' : ''}`}
+                    >
+                      About
+                    </h4>
                   </IonCol>
                   <IonCol className="marright">
-                    <a href="/portfolio/#experience">
-                      <h4 className="nav">Experience</h4>
-                    </a>
+                    <h4
+                      className={`nav ${selectedSection === 'experience' ? 'selected' : ''}`}
+                      onClick={() => scrollToSection('experience')}
+                    >
+                      Experience
+                    </h4>
                   </IonCol>
                   <IonCol>
-                    <a href="/portfolio/#project">
-                      <h4 className="nav">Project</h4>
-                    </a>
+                    <h4
+                      onClick={() => scrollToSection('project')}
+                      className={`nav ${selectedSection === 'project' ? 'selected' : ''}`}
+                    >
+                      Project
+                    </h4>
                   </IonCol>
-                  <IonCol className="nav">
-                    <a href="/portfolio/#contact">
-                      <h4 className="nav">Contact</h4>
-                    </a>
+                  <IonCol>
+                    <h4
+                      onClick={() => scrollToSection('contact')}
+                      className={`nav ${selectedSection === 'contact' ? 'selected' : ''}`}
+                    >
+                      Contact
+                    </h4>
                   </IonCol>
-                  <IonCol className="nav">
-                    <a href={cvPdf} target="_blank" download="VigneshKannaa-CV">
+                  <IonCol>
+                    <a href={cvPdf} target="_blank" rel="noreferrer" download="VigneshKannaa-CV">
                       <h4 className="nav">CV</h4>
                     </a>
                   </IonCol>
@@ -56,6 +105,6 @@ const NavBar = () => {
         </IonTitle>
       </IonToolbar>
     </IonHeader>
-  );
-};
-export default NavBar;
+  )
+}
+export default NavBar

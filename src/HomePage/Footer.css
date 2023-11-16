@@ -1,3 +1,6 @@
-h5:hover {
-  color: #6b53ff;
+.footer {
+  margin: 80px 0 20px 0;
+}
+.footer:hover {
+  color: #bca0f4;
 }

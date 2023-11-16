@@ -1,0 +1,126 @@
+.mainprojcard {
+  cursor: default;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  background-color: #2f2b44;
+}
+.ion-chip {
+    text-transform: none;
+  padding-inline: 0;
+  justify-content: center;
+  font-size: 13px;
+  color: white;
+  background: #231c43;
+}
+.techlog {
+  margin: 0 5px 0 0;
+  width: 20%;
+}
+.ion-card {
+  margin: 10% 0 0 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.projPad {
+  padding: 15px;
+}
+/* desktop */
+@media screen and (min-width: 601px) {
+  .projImgContainer {
+    display: contents;
+  }
+  .mainprojImg {
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .projbtn {
+    margin-top: 15px;
+    height: 60px;
+  }
+  .modalCloseIcon {
+    font-size: 5vmin;
+  }
+  .projTitle {
+    font-size: 24px;
+  }
+
+  ion-modal {
+    --height: 700px;
+    --width: 800px;
+    --border-radius: 15px;
+    --backdrop-opacity: var(--ion-backdrop-opacity, 0.75);
+  }
+
+  .projContent {
+    color: #c5c5c5;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .projMargin {
+    margin: 15px;
+  }
+  .projChipMargin {
+    margin-top: 15px;
+  }
+
+  .projopenIcon {
+    font-size: 30px;
+    margin: 0 0 0 10px;
+  }
+}
+/* mobile */
+@media screen and (max-width: 601px) {
+  .projImgContainer {
+    margin: auto;
+  }
+  .mainprojImg {
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .projbtn {
+    margin-top: 10px;
+    height: 40px;
+  }
+  .modalCloseIcon {
+    font-size: 5vmin;
+  }
+  .modalTitle {
+    color: white;
+    font-size: 20px;
+    margin: 5% 0% 2% 5%;
+  }
+
+  ion-modal {
+    --height: 500px;
+    --width: 100%;
+    --border-radius: 15px;
+    --backdrop-opacity: var(--ion-backdrop-opacity, 0.75);
+  }
+
+  .projContent {
+    color: #c5c5c5;
+    font-size: 12px;
+    margin-top: 25px;
+  }
+
+  .modalMargin {
+    margin: 0 5% 0 5%;
+  }
+
+  .openIcon {
+    font-size: 25px;
+    margin: 0 0 0 10px;
+  }
+}
+.ios .modalTitle {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+}
