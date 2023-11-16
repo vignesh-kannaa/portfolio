@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from 'react'
 
 const NavBar = () => {
   const cvPdf =
-    'https://drive.google.com/file/d/1oyzLf-BLv5TTqQJkBE3YjgVzzx0uQs3R/view?usp=share_link'
+    'https://drive.google.com/file/d/1QfvrtPrU2siehSNbwSYcCx5XiukvX7e_/view?usp=drive_link'
   const [selectedSection, setSelectedSection] = useState('')
   const observerRef = useRef<IntersectionObserver | null>(null)
 
